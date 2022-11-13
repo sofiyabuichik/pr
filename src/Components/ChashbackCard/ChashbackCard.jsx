@@ -1,12 +1,13 @@
 import React from 'react'
+import Slider from '../Slider/Slider'
 
 export default function ChashbackCard({ChashbackCardArray = [1, 2, 3]}) {
   return (
-    <div className='ChashbekCard'>
+    <section className='ChashbekCard'>
         <h1>Кэшбэк карты</h1>
-        <h3 className='Chashbekh3'>Кешбэк — это возврат некоторой части расходов на оплату товаров и услуг.</h3>
+        <p className='Chashbekh3'>Кешбэк — это возврат некоторой части расходов на оплату товаров и услуг.</p>
         <div className='Chashback_sliders'>
-            {
+            {/* {
                 ChashbackCardArray.map((chashcard) => {
                     return(
                         <div className='slider' key={chashcard}>
@@ -16,7 +17,8 @@ export default function ChashbackCard({ChashbackCardArray = [1, 2, 3]}) {
                         </div>
                     )
                 })
-            }   
+            }    */}
+            <Slider array={ChashbackCardArray}/>
         </div>
         {/*<img className='Installment_Switches1' src='../../../../SwitchesPolygon1.png'></img>
             <img className='Installment_Switches2' src='../../../../SwitchesPolygon2.png'></img>*/}
@@ -25,6 +27,6 @@ export default function ChashbackCard({ChashbackCardArray = [1, 2, 3]}) {
             <img src='../../../../../../Ellipse2.png'></img>
             <img src='../../../../../../Ellipse3.png'></img>
         </div>*/}
-    </div>
+    </section>
   )
 }

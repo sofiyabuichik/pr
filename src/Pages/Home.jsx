@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import CarouselBox from '../Components/CarouselBox';
 import ChashbackCard from '../Components/ChashbackCard/ChashbackCard';
-import Foter from '../Components/Foter/Foter';
+import Footer from '../Components/Foter/Footer';
 import HomeTextBlock from '../Components/HomeTextBlock/HomeTextBlock';
 import InstallmentCards from '../Components/InstallmentCards/InstallmentCards';
 import LargestBanks from '../Components/LargestBanks/LargestBanks';
@@ -9,7 +9,7 @@ import LargestBanks from '../Components/LargestBanks/LargestBanks';
 export default class Home extends Component {
     render(){
         return (
-            <>
+            <div>
                 {/*HomeTextBlock*/}
                 <HomeTextBlock/>
                 {/*the largest banks*/}
@@ -19,8 +19,8 @@ export default class Home extends Component {
                 {/*Installment Cards*/}
                 <InstallmentCards InstallmentCardsArray = {[1,1,1]}/>
                 {/*Foter*/}
-                <Foter/>
-            </>
+                <Footer/>
+            </div>
         )
     }
 }
