@@ -13,7 +13,7 @@ export default class Home extends Component {
                 {/*HomeTextBlock*/}
                 <HomeTextBlock/>
                 {/*the largest banks*/}
-                <LargestBanks banksArray={['Первый','Второй','Четвертый', 'nhtnbq', 'fndkjsgk','dfgnvdk']}/>
+                <LargestBanks banksArray={['Первый','Второй','Четвертый', 'Пятый', 'Третий','Шестой']}/>
                 {/*Chashback Card */}
                 <ChashbackCard ChashbackCardArray = {[1,1,1,1]}/>
                 {/*Installment Cards*/}

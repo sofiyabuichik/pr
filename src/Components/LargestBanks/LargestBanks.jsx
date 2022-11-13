@@ -7,12 +7,17 @@ export default function LargestBanks({banksArray = [1,2,3]}) {
     event.preventDefault()
     setScore(score+1)
   }
+  function inHandler(event) {
+    console.log(event)
+    event.preventDefault()
+    setScore(score-1)
+  }
 
   return (
     <div className='The_largest_banks'>
         <h1>Крупнейшие банки Республики Беларуси</h1>
         <div className='slider'> 
-          <button className='arrow-back'>
+          <button className='arrow-back' onClick={e => inHandler(e)}>
             Назад
           </button>
           <div className="slides-contener">
