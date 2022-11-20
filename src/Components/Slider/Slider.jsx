@@ -1,6 +1,7 @@
 import React from 'react';
+import Slide from './Slide';
 
-function Slider({array}) {
+function Slider({array, width = 800, path}) {
   const [score, setScore] = React.useState(0)
 
   const increment = () => score < array.length-3 && setScore(score+1)
@@ -15,17 +16,9 @@ function Slider({array}) {
       <button className='arrow-back slider-btn' onClick={decrement}>
       &#8249;
       </button>
-      <div className="slider-container_wrapper">
+      <div className="slider-container_wrapper" style={{width: `${width}px`}}>
         <div className="slides-container" style={{transform: `translate(${score * -270}px)`}}>
-          {array.map((bank) => {
-              return ( 
-                <div className='slide' key={bank}> 
-                  {/*<img src='../../../../../../../belbanc.png' alt='БеларусБанк'></img>*/}
-                  <h2>БеларусБанк</h2>
-                  <h3>{bank}</h3>  
-                </div>
-              )
-          })}
+          {array.map((item) => <Slide path={path} item={item} width={width / 3 - 30}/>)}
         </div>
       </div>
       <button className='arrow-back slider-btn' onClick={increment}>

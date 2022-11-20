@@ -15,9 +15,9 @@ function App() {
         <Header/>
         <Routes>
             <Route exact path="/" element={<Home/>}/>
+            <Route exact path="/banks" element={<Banks/>}/>
             <Route exact path="/chashbek" element={<Chashbek/>}/>
             <Route exact path="/rassrochka" element={<Rassrochka/>}/>
-            <Route exact path="/banks" element={<Banks/>}/>
         </Routes> 
       </BrowserRouter>
     </div>
