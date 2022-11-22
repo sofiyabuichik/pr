@@ -7,12 +7,12 @@ export default function Header() {
     <>
         <div className="header">
             <div className='nav__image_logo'>
-                <img src='logo.png'></img>
+                <img src='logo.png' alt={"logo.png"}></img>
             </div>
             <ul className='ul-links'>
                 <Link to="/" children="Главная"/>   
                 <Link to="/banks" children="Банки"/>
-                <Link to="/chashbek" children="Кэшбэк карты"/>
+                <Link to="/chashback" children="Кэшбэк карты"/>
                 <Link to="/rassrochka" children="Карта рассрочки"/>
             </ul>
             <div className="nav__search_container">

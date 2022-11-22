@@ -118,7 +118,7 @@ code {
     z-index: -1;
     margin-top: -295px;
     margin-left: 555px;
-    display: 'flex';
+    display: flex;
     padding: 0 0 0 50px;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -266,4 +266,66 @@ code {
     width: 240px;
     font-size: 20px;
     text-align: justify;
+}
+
+.foter_navigation_home_page {
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-around;
+    padding: 0 340px;
+}
+
+.foter_navigation_home_page img{
+    width: 200px;
+    height: 120px;
+}
+
+.foter_navigation_home_page h4{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.foter_navigation_home_page a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.foter_navigation_home_page .link_wrapper {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 150px;
+    text-align: left;
+}
+
+.bank_block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 1000px;
+    border-radius: 20px;
+    background-color: rgba(185, 189, 197, 0.26);
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.22);
+    margin-bottom: 20px;
+}
+
+.image_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+}
+
+.image_block img {
+    object-fit: cover;
+    max-height: 95%;
+    max-width: 95%;
+}
+
+.info_block {
+    display: block;
+    width: 90%;
 }

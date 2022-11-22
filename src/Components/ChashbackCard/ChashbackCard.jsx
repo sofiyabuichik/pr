@@ -18,7 +18,7 @@ export default function ChashbackCard({ChashbackCardArray = [1, 2, 3]}) {
                     )
                 })
             }    */}
-            <Slider array={ChashbackCardArray}/>
+            <Slider array={ChashbackCardArray} path={"cashback/"}/>
         </div>
         {/*<img className='Installment_Switches1' src='../../../../SwitchesPolygon1.png'></img>
             <img className='Installment_Switches2' src='../../../../SwitchesPolygon2.png'></img>*/}

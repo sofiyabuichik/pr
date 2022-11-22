@@ -4,10 +4,10 @@ import Slide from './Slide';
 function Slider({array, width = 800, path}) {
   const [score, setScore] = React.useState(0)
 
-  const increment = () => score < array.length-3 && setScore(score+1)
+  const increment = () => score < array.length-3 ? setScore(score+1) : setScore(0)
   
 
-  const decrement = () => score > 0 && setScore(score-1)
+  const decrement = () => score > 0 ? setScore(score-1) : setScore(array.length-3)
   
 
   return (
@@ -18,7 +18,7 @@ function Slider({array, width = 800, path}) {
       </button>
       <div className="slider-container_wrapper" style={{width: `${width}px`}}>
         <div className="slides-container" style={{transform: `translate(${score * -270}px)`}}>
-          {array.map((item) => <Slide path={path} item={item} width={width / 3 - 30}/>)}
+          {array.map((item) => <Slide key={item.id} path={path} item={item} width={width / 3 - 30}/>)}
         </div>
       </div>
       <button className='arrow-back slider-btn' onClick={increment}>

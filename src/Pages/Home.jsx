@@ -1,16 +1,17 @@
 import React, {Component} from 'react';
 import CarouselBox from '../Components/CarouselBox';
 import ChashbackCard from '../Components/ChashbackCard/ChashbackCard';
-import Footer from '../Components/Foter/Footer';
+import Footer from '../Components/Footer/Footer';
 import HomeTextBlock from '../Components/HomeTextBlock/HomeTextBlock';
 import InstallmentCards from '../Components/InstallmentCards/InstallmentCards';
 import LargestBanks from '../Components/LargestBanks/LargestBanks';
 
-export default function Home() {
+export default function Home({banksArray}) {
 
-  const banks = [
+
+  const cards = [
     {
-      name: 'БеларусБанк',
+      name: 'asdasd',
       description: 'Крупнейшій банк страны',
       image: '/img/belarusbank_logo.jpg',
       id: 1,
@@ -32,12 +33,6 @@ export default function Home() {
       description: 'Chash',
       image: '/img/belarusbank_logo.jpg',
       id: 4,
-    },
-    {
-      name: 'БеларусБанк',
-      description: 'Chash',
-      image: '/img/belarusbank_logo.jpg',
-      id: 5,
     }
   ]
 
@@ -46,12 +41,12 @@ export default function Home() {
       {/*HomeTextBlock*/}
       <HomeTextBlock/>
       {/*the largest banks*/}
-      <LargestBanks banksArray={banks}/>
+      <LargestBanks banksArray={banksArray}/>
       {/*Chashback Card */}
-      <ChashbackCard ChashbackCardArray = {banks}/>
+      <ChashbackCard ChashbackCardArray={cards}/>
       {/*Installment Cards*/}
-      <InstallmentCards InstallmentCardsArray = {banks}/>
-      {/*Foter*/}
+      <InstallmentCards InstallmentCardsArray={cards}/>
+      {/*Footer*/}
       <Footer/>
     </div>
   )
