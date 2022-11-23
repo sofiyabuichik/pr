@@ -185,6 +185,8 @@ code {
     align-items: center;
     height: 100%;
     font-size: 60px;
+    background: none;
+    border: none;
 }
 
 .slider-dots {

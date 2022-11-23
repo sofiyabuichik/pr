@@ -23,9 +23,9 @@ function App() {
       id: 2,
     },
     {
-      name: 'Банк 3',
+      name: 'Белгазпромбанк',
       description: 'lorem12 ',
-      image: '/img/belarusbank_logo.jpg',
+      image: '/img/belgazprombanklogo.jpg',
       id: 3,
     },
     {
