@@ -1,5 +1,6 @@
 import React from 'react';
 import {Button} from "@mui/material";
+import Slider from '../Components/Slider/Slider';
 
 function Banks({banksArray}) {
 
@@ -18,12 +19,17 @@ function Banks({banksArray}) {
               </div>
               <div className="info_block">
                 <h3>{bank.name}</h3>
-                <p align={"right"}>{bank.description}</p>
+                <p>{bank.description}</p>
               </div>
-              <Button variant="text">Подробнее</Button>
+              <div className="divbutton">
+                <Button variant="text">Подробнее</Button>
+              </div>
               <div className="content_block">
                 <div className="cashback_content">
-
+                  <Slider array={bank.chashbackCards}/>
+                {bank.chashbackCards.map(card =>(
+                  card.name
+                ))}
                 </div>
               </div>
             </div>
