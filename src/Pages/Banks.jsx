@@ -12,7 +12,7 @@ function Banks({banksArray}) {
           banksArray.map(bank => (
 
 
-            <div className="bank_block">
+            <div className="bank_block" id={bank.id}>
               <div className="image_block">
                 <img src={bank.image} alt=""/>
               </div>
