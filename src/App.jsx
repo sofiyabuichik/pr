@@ -11,34 +11,1043 @@ import Banks from './Pages/Banks';
 function App() {
   const banks = [
     {
-      name: 'БеларусБанк',
-      description: 'Крупнейшій банк страны',
-      image: '/img/belarusbank_logo.jpg',
       id: 1,
+      name: 'БеларусБанк',
+      description: 'Крупнейший банк страны',
+      image: '/img/belarusbank_logo.jpg',
+      news:[
+        {
+          id:1,
+          name: 'Belarus',
+          description: 'logo image',
+          links: 'http://',
+        },
+        {
+          id:2,
+          name: 'Belarus',
+          description: 'logo image',
+          links: 'http://',
+        }
+      ],
+      adresses: [
+        {
+          id:1,
+          area:'dfgh',
+          street:'',
+          home:1,
+          building:''
+        },
+        {
+          id:2,
+          area:'dfgh',
+          street:'',
+          home:1,
+          building:''
+        }],
+      installmentCards:[
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            },
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        },
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            },
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        }
+      ],
+      chashbackCards: [
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            },
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        }
+      ],
     },
     {
+      id: 2,
       name: 'Альфа Банк',
       description: 'Chash',
       image: '/img/alfa.png',
-      id: 2,
+      news:[
+        {
+          id:1,
+          name: 'Belarus',
+          description: 'logo image',
+          links: 'http://',
+        },
+        {
+          id:2,
+          name: 'Belarus',
+          description: 'logo image',
+          links: 'http://',
+        }
+      ],
+      adresses: [
+        {
+          id:1,
+          area:'dfgh',
+          street:'',
+          home:1,
+          building:''
+        },
+        {
+          id:2,
+          area:'dfgh',
+          street:'',
+          home:1,
+          building:''
+        }],
+      installmentCards:[
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            },
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        },
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            },
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        }
+      ],
+      chashbackCards: [
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            },
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        }
+      ],
     },
     {
-      name: 'Банк 3',
-      description: 'lorem12 ',
-      image: '/img/belarusbank_logo.jpg',
       id: 3,
+      name: 'Белгазпромбанк',
+      description: 'lorem12 ',
+      image: '/img/belgazprombanklogo.jpg',
+      news:[
+        {
+          id:1,
+          name: 'Belarus',
+          description: 'logo image',
+          links: 'http://',
+        },
+        {
+          id:2,
+          name: 'Belarus',
+          description: 'logo image',
+          links: 'http://',
+        }
+      ],
+      adresses: [
+        {
+          id:1,
+          area:'dfgh',
+          street:'',
+          home:1,
+          building:''
+        },
+        {
+          id:2,
+          area:'dfgh',
+          street:'',
+          home:1,
+          building:''
+        }],
+      installmentCards:[
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            },
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        },
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            },
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        }
+      ],
+      chashbackCards: [
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            },
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        }
+      ],
     },
     {
+      id: 4,
       name: 'Альфа Банк',
       description: 'Chaasdasdsh',
       image: '/img/belarusbank_logo.jpg',
-      id: 4,
+      news:[
+        {
+          id:1,
+          name: 'Belarus',
+          description: 'logo image',
+          links: 'http://',
+        },
+        {
+          id:2,
+          name: 'Belarus',
+          description: 'logo image',
+          links: 'http://',
+        }
+      ],
+      adresses: [
+        {
+          id:1,
+          area:'dfgh',
+          street:'',
+          home:1,
+          building:''
+        },
+        {
+          id:2,
+          area:'dfgh',
+          street:'',
+          home:1,
+          building:''
+        }],
+      installmentCards:[
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            },
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        },
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            },
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        }
+      ],
+      chashbackCards: [
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            },
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        }
+      ],
     },
     {
+      id: 5,
       name: 'БеларусБанк',
       description: 'Chas sdf sdf sdfh',
       image: '/img/belarusbank_logo.jpg',
+      news:[
+        {
+          id:1,
+          name: 'Belarus',
+          description: 'logo image',
+          links: 'http://',
+        },
+        {
+          id:2,
+          name: 'Belarus',
+          description: 'logo image',
+          links: 'http://',
+        }
+      ],
+      adresses: [
+        {
+          id:1,
+          area:'dfgh',
+          street:'',
+          home:1,
+          building:''
+        },
+        {
+          id:2,
+          area:'dfgh',
+          street:'',
+          home:1,
+          building:''
+        }],
+      installmentCards:[
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            },
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        },
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            },
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        }
+      ],
+      chashbackCards: [
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            },
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        }
+      ],
+    }
+  ]
+  // const cards = [
+  //   {
+  //     id:1,
+  //     name: 'John',
+  //     image: '/img/belarusbank_logo.jpg',
+  //     description: 'lorem12',
+  //     type: 'chashback'
+  //   },
+  //   {
+  //     id:2,
+  //     name: 'John',
+  //     image: '/img/belarusbank_logo.jpg',
+  //     description: 'lorem12',
+  //     type: 'chashback'
+  //   }
+  // ];
+  const banks = [
+    {
+      id: 1,
+      name: 'БеларусБанк',
+      description: 'Крупнейший банк страны',
+      image: '/img/belarusbank_logo.jpg',
+      news:[
+        {
+          id:1,
+          name: 'Belarus',
+          description: 'logo image',
+          links: 'http://',
+        },
+        {
+          id:2,
+          name: 'Belarus',
+          description: 'logo image',
+          links: 'http://',        
+        }
+      ],
+      adresses: [
+        {
+          id:1,
+          area:'dfgh',
+          street:'',
+          home:1,
+          building:''
+        }, 
+        {
+          id:2,
+          area:'dfgh',
+          street:'',
+          home:1,
+          building:''
+        }],
+      installmentCards:[  
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }, 
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        },
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }, 
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        }
+      ],
+      chashbackCards: [
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            },
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        }
+      ],
+    },
+    {
+      id: 2,
+      name: 'Альфа Банк',
+      description: 'Chash',
+      image: '/img/alfa.png',
+      news:[
+        {
+          id:1,
+          name: 'Belarus',
+          description: 'logo image',
+          links: 'http://',
+        },
+        {
+          id:2,
+          name: 'Belarus',
+          description: 'logo image',
+          links: 'http://',        
+        }
+      ],
+      adresses: [
+        {
+          id:1,
+          area:'dfgh',
+          street:'',
+          home:1,
+          building:''
+        }, 
+        {
+          id:2,
+          area:'dfgh',
+          street:'',
+          home:1,
+          building:''
+        }],
+      installmentCards:[
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }, 
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        },
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }, 
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        }
+      ],
+      chashbackCards: [
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            },
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        }
+      ],
+    },
+    {  
+      id: 3,
+      name: 'Белгазпромбанк',
+      description: 'lorem12 ',
+      image: '/img/belgazprombanklogo.jpg',
+      news:[
+        {
+          id:1,
+          name: 'Belarus',
+          description: 'logo image',
+          links: 'http://',
+        },
+        {
+          id:2,
+          name: 'Belarus',
+          description: 'logo image',
+          links: 'http://',        
+        }
+      ],
+      adresses: [
+        {
+          id:1,
+          area:'dfgh',
+          street:'',
+          home:1,
+          building:''
+        }, 
+        {
+          id:2,
+          area:'dfgh',
+          street:'',
+          home:1,
+          building:''
+        }],
+      installmentCards:[
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }, 
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        },
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }, 
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        }
+      ],
+      chashbackCards: [
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            },
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        }
+      ],
+    },
+    {
+      id: 4,
+      name: 'Альфа Банк',
+      description: 'Chaasdasdsh',
+      image: '/img/belarusbank_logo.jpg',
+      news:[
+        {
+          id:1,
+          name: 'Belarus',
+          description: 'logo image',
+          links: 'http://',
+        },
+        {
+          id:2,
+          name: 'Belarus',
+          description: 'logo image',
+          links: 'http://',        
+        }
+      ],
+      adresses: [
+        {
+          id:1,
+          area:'dfgh',
+          street:'',
+          home:1,
+          building:''
+        }, 
+        {
+          id:2,
+          area:'dfgh',
+          street:'',
+          home:1,
+          building:''
+        }],
+      installmentCards:[
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }, 
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        },
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }, 
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        }
+      ],
+      chashbackCards: [
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            },
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        }
+      ],
+    },
+    {
       id: 5,
+      name: 'БеларусБанк',
+      description: 'Chas sdf sdf sdfh',
+      image: '/img/belarusbank_logo.jpg',
+      news:[
+        {
+          id:1,
+          name: 'Belarus',
+          description: 'logo image',
+          links: 'http://',
+        },
+        {
+          id:2,
+          name: 'Belarus',
+          description: 'logo image',
+          links: 'http://',        
+        }
+      ],
+      adresses: [
+        {
+          id:1,
+          area:'dfgh',
+          street:'',
+          home:1,
+          building:''
+        }, 
+        {
+          id:2,
+          area:'dfgh',
+          street:'',
+          home:1,
+          building:''
+        }],
+      installmentCards:[
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }, 
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        },
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }, 
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        }
+      ],
+      chashbackCards: [
+        {
+          id: 1,
+          name: 'Belarus',
+          links: 'jd',
+          image: 'http://',
+          description: 'Belarus',
+          cost: '',
+          moneyBack: '',
+          bonus:[
+            {
+              id: 1,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            },
+            {
+              id: 2,
+              name: 'Belarus',
+              default: 'dhbxbvdxk',
+            }
+          ],
+        }
+      ],
+>>>>>>> d0705deb19e39850d21153aa48d8b9901c0b7290
     }
   ]
 
