@@ -2,7 +2,7 @@ import React from 'react';
 import Slide from './Slide';
 
 
-function Slider({array, width = 800, path}) {
+function Slider({array, width = 800, path = null}) {
   const [score, setScore] = React.useState(0)
 
   const increment = () => score < array.length-3 ? setScore(score+1) : setScore(0)

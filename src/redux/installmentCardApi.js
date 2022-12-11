@@ -9,6 +9,9 @@ export const installmentCardsApi = createApi({
 			query: (limit = '') => `installment-cards?${limit && `_limit=${limit}`}`,
 
 		}),
+		getInstallmentCardsByBankId: build.query({
+			query: (bankid) => `installment-cards?${bankid && `bankid=${bankid}`}`,
+		}),
 		// addProduct: build.mutation({
 		// 	query: (body) => ({
 		// 		url: 'cashback-cards',
@@ -27,4 +30,4 @@ export const installmentCardsApi = createApi({
 	})
 });
 
-export const {useGetInstallmentCardsQuery, useAddProductMutation, useDeleteProductMutation} = installmentCardsApi;
+export const {useGetInstallmentCardsQuery, useGetInstallmentCardsByBankIdQuery, useAddProductMutation, useDeleteProductMutation} = installmentCardsApi;

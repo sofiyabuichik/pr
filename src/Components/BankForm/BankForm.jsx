@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import {Button} from "@mui/material";
 import BankCardForm from "../BankCardForm/BankCardForm";
+import {useGetCashbackCardsByBankIdQuery} from "../../redux/cashbackCardApi";
+import {useGetInstallmentCardsByBankIdQuery} from "../../redux/installmentCardApi";
 
 function BankForm({bank}) {
 	const [isActiveCard, setIsActiveCard] = useState(false)
@@ -13,14 +15,14 @@ function BankForm({bank}) {
 				</div>
 				<div className="info_block">
 					<h3>{bank.name}</h3>
-					<p align={"right"}>{bank.description}</p>
+					<p align={"left"}>{bank.description}</p>
 
 				</div>
 			</div>
-			<Button variant="text" onClick={() => setIsActiveCard(!isActiveCard)}>Подробнее</Button>
+			<Button variant="text" onClick={() => setIsActiveCard(!isActiveCard)}>{!isActiveCard ? "Подробнее" : "Свернуть"}</Button>
 			<div className="content_block">
-				{isActiveCard && <BankCardForm bankid={bank.id} title={"Кэшбэк карты"}/> }
-				{isActiveCard && <BankCardForm bankid={bank.id} title={"Карты рассрочки"}/> }
+				{isActiveCard && <BankCardForm bankid={bank.id} title={"Кэшбэк карты"} path={"cashback"} getApi={useGetCashbackCardsByBankIdQuery}/> }
+				{isActiveCard && <BankCardForm bankid={bank.id} title={"Карты рассрочки"} path={"installment"} getApi={useGetInstallmentCardsByBankIdQuery}/> }
 			</div>
 		</div>
 	);

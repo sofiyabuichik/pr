@@ -5,7 +5,7 @@ export default function Slide({item, width, path}) {
 
   console.log(item)
   return (
-    <Link to={`/${path}#${item.id}`}>
+    <Link to={path ? `/${path}#${item.id}` : "#"}>
       <div
         className='slide'
         key={item}
@@ -14,8 +14,10 @@ export default function Slide({item, width, path}) {
         <div className="img-container">
           <img src={item.image} alt={item.name}/>
         </div>
-        <h2>{item.name}</h2>
-        <p>{item.description}</p>
+        <div className="slide-text">
+          <h2>{item.name}</h2>
+          <p>{item.description}</p>
+        </div>
       </div>
     </Link>
   )

@@ -59,17 +59,17 @@ code {
   align-items: center;
 }
 
-.nav_inpyt_search {
+.nav_input_search {
   border: none;
   background: #ee6d9683;
   border-radius: 30px;
   width: 290px;
-  height: 45px;
+  height: 40px;
   padding-left: 20px;
   color: white;
 }
 
-.nav_inpyt_search::placeholder {
+.nav_input_search::placeholder {
   color: #EBDFB4;
 }
 
@@ -225,6 +225,7 @@ code {
   transition: 0.8s ease-in-out;
   display: flex;
   width: max-content;
+
 }
 
 .slide {
@@ -238,6 +239,7 @@ code {
   /* border: 1px solid #FFFFFF; */
   box-shadow: 2px 2px 5px rgba(137, 137, 137, 0.296);
   border-radius: 19px;
+  overflow: hidden;
 }
 
 .slide .img-container {
@@ -259,15 +261,26 @@ code {
   object-fit: cover;
 }
 
+.slide-text {
+  margin: auto;
+  width: 90%;
+  height: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /*padding: 0 20px;*/
+}
+
 .slide h2 {
   font-size: 25px;
 }
 
-.slide h3 {
-  padding-left: 10px;
-  width: 240px;
-  font-size: 20px;
+.slide p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /*width: 240px;*/
+  font-size: 16px;
   text-align: justify;
+
 }
 
 .foter_navigation_home_page {
@@ -304,10 +317,11 @@ code {
 .bank_block {
   width: 1000px;
   border-radius: 20px;
-  background-color: rgba(185, 189, 197, 0.26);
+  background-color: #c6d2dd5c;
   box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.22);
   margin-bottom: 20px;
 }
+
 
 .bank_main_wrapper {
   display: flex;
@@ -316,16 +330,19 @@ code {
 }
 
 .image_block {
+  padding-top: 10px;
   justify-items: center;
   align-items: center;
   max-width: 430px;
   max-height: 430px;
+
 }
 
 .image_block img {
   object-fit: cover;
   max-height: 95%;
   max-width: 95%;
+  border-radius: 20px;
 }
 
 .info_block {
@@ -347,4 +364,11 @@ code {
   grid-area: C;
   justify-items: center;
   align-items: center;
+}
+
+.spinner-border {
+  color: #FFFFFF;
+  position: fixed;
+  left: 49%;
+  top: 49%;
 }

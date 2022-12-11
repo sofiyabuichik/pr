@@ -8,11 +8,6 @@ import LargestBanks from '../Components/LargestBanks/LargestBanks';
 
 export default function Home() {
 
-
-
-
-
-
   return (
     <div>
       {/*HomeTextBlock*/}
