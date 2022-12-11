@@ -1,30 +1,22 @@
 import React from 'react'
-
-import {
-  useNavigate,
-} from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 
 export default function Slide({item, width, path}) {
-  let navigate = useNavigate();
-  const clickhandler = () => {
-    if (item.id) {
-      return navigate(`/${path}#${item.id}`);
-    }
 
-  }
-
+  console.log(item)
   return (
-    <div 
-      className='slide' 
-      key={item} 
-      style={{width: `${width}px`}} 
-      onClick={clickhandler}
-    > 
-      <div className="img-container">
-        <img src={item.image} alt={item.name}/>
+    <Link to={`/${path}#${item.id}`}>
+      <div
+        className='slide'
+        key={item}
+        style={{width: `${width}px`}}
+      >
+        <div className="img-container">
+          <img src={item.image} alt={item.name}/>
+        </div>
+        <h2>{item.name}</h2>
+        <p>{item.description}</p>
       </div>
-      <h2>{item.name}</h2>
-      <p>{item.description}</p>  
-    </div>
+    </Link>
   )
 }

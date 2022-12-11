@@ -1,18 +1,21 @@
 import React from 'react'
 import Slider from '../Slider/Slider'
+import {useGetBanksQuery} from "../../redux/banksApi";
 
-export default function LargestBanks({banksArray = [{
-  name: "none",
-  description: 'asd',
-  image: "asd",
-  id: 1
-}]}) {
-  
+export default function LargestBanks() {
+
+  const {data = [], isLoading = false} = useGetBanksQuery(5)
+
+  if (isLoading) return (
+    <div className="spinner-border" role="status">
+      <span className="sr-only">Loading...</span>
+    </div>
+  )
 
   return (
     <section className='The_largest_banks'>
         <h1>Крупнейшие банки Республики Беларуси</h1>
-        <Slider array={banksArray} path={"banks"}/>
+        <Slider array={data} path={"banks"}/>
 
     </section>
   )

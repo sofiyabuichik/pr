@@ -1,0 +1,592 @@
+{
+  "banks": [
+  {
+    "id": 1,
+    "name": "БеларусБанк",
+    "description": "aaa",
+    "image": "/img/belarusbank_logo.jpg"
+  },
+  {
+    "id": 890542,
+    "name": "Альфа Банк",
+    "description": "Chash",
+    "image": "/img/alfa.png",
+    "news": [
+      {
+        "id": 6731,
+        "name": "Belarus",
+        "description": "logo image",
+        "links": "http://"
+      },
+      {
+        "id": 27707,
+        "name": "Belarus",
+        "description": "logo image",
+        "links": "http://"
+      }
+    ],
+    "adresses": [
+      {
+        "id": 456461,
+        "area": "dfgh",
+        "street": "",
+        "home": 1,
+        "building": ""
+      },
+      {
+        "id": 45642335,
+        "area": "dfgh",
+        "street": "",
+        "home": 1,
+        "building": ""
+      }
+    ],
+    "installmentCards": [
+      {
+        "id": 35353253251,
+        "name": "Belarus",
+        "links": "jd",
+        "image": "http://",
+        "description": "Belarus",
+        "cost": "",
+        "moneyBack": "",
+        "bonus": [
+          {
+            "id": 678681,
+            "name": "Belarus",
+            "default": "dhbxbvdxk"
+          },
+          {
+            "id": 6785456462,
+            "name": "Belarus",
+            "default": "dhbxbvdxk"
+          }
+        ]
+      },
+      {
+        "id": 7895461,
+        "name": "Belarus",
+        "links": "jd",
+        "image": "http://",
+        "description": "Belarus",
+        "cost": "",
+        "moneyBack": "",
+        "bonus": [
+          {
+            "id": 4646464561,
+            "name": "Belarus",
+            "default": "dhbxbvdxk"
+          },
+          {
+            "id": 456346464364364654564564564562,
+            "name": "Belarus",
+            "default": "dhbxbvdxk"
+          }
+        ]
+      }
+    ],
+    "chashbackCards": [
+      {
+        "id": 1788990,
+        "name": "Belarus",
+        "links": "jd",
+        "image": "http://",
+        "description": "Belarus",
+        "cost": "",
+        "moneyBack": "",
+        "bonus": [
+          {
+            "id": 431,
+            "name": "Belarus",
+            "default": "dhbxbvdxk"
+          },
+          {
+            "id": 3453452,
+            "name": "Belarus",
+            "default": "dhbxbvdxk"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Белгазпромбанк",
+    "description": "lorem12 ",
+    "image": "/img/belgazprombanklogo.jpg",
+    "news": [
+      {
+        "id": 1,
+        "name": "Belarus",
+        "description": "logo image",
+        "links": "http://"
+      },
+      {
+        "id": 2,
+        "name": "Belarus",
+        "description": "logo image",
+        "links": "http://"
+      }
+    ],
+    "adresses": [
+      {
+        "id": 1,
+        "area": "dfgh",
+        "street": "",
+        "home": 1,
+        "building": ""
+      },
+      {
+        "id": 2,
+        "area": "dfgh",
+        "street": "",
+        "home": 1,
+        "building": ""
+      }
+    ],
+    "installmentCards": [
+      {
+        "id": 1,
+        "name": "Belarus",
+        "links": "jd",
+        "image": "http://",
+        "description": "Belarus",
+        "cost": "",
+        "moneyBack": "",
+        "bonus": [
+          {
+            "id": 1,
+            "name": "Belarus",
+            "default": "dhbxbvdxk"
+          },
+          {
+            "id": 2,
+            "name": "Belarus",
+            "default": "dhbxbvdxk"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Belarus",
+        "links": "jd",
+        "image": "http://",
+        "description": "Belarus",
+        "cost": "",
+        "moneyBack": "",
+        "bonus": [
+          {
+            "id": 1,
+            "name": "Belarus",
+            "default": "dhbxbvdxk"
+          },
+          {
+            "id": 2,
+            "name": "Belarus",
+            "default": "dhbxbvdxk"
+          }
+        ]
+      }
+    ],
+    "chashbackCards": [
+      {
+        "id": 1,
+        "name": "Belarus",
+        "links": "jd",
+        "image": "http://",
+        "description": "Belarus",
+        "cost": "",
+        "moneyBack": "",
+        "bonus": [
+          {
+            "id": 1,
+            "name": "Belarus",
+            "default": "dhbxbvdxk"
+          },
+          {
+            "id": 2,
+            "name": "Belarus",
+            "default": "dhbxbvdxk"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Альфа Банк",
+    "description": "Chaasdasdsh",
+    "image": "/img/belarusbank_logo.jpg",
+    "news": [
+      {
+        "id": 1,
+        "name": "Belarus",
+        "description": "logo image",
+        "links": "http://"
+      },
+      {
+        "id": 2,
+        "name": "Belarus",
+        "description": "logo image",
+        "links": "http://"
+      }
+    ],
+    "adresses": [
+      {
+        "id": 1,
+        "area": "dfgh",
+        "street": "",
+        "home": 1,
+        "building": ""
+      },
+      {
+        "id": 2,
+        "area": "dfgh",
+        "street": "",
+        "home": 1,
+        "building": ""
+      }
+    ],
+    "installmentCards": [
+      {
+        "id": 1,
+        "name": "Belarus",
+        "links": "jd",
+        "image": "http://",
+        "description": "Belarus",
+        "cost": "",
+        "moneyBack": "",
+        "bonus": [
+          {
+            "id": 1,
+            "name": "Belarus",
+            "default": "dhbxbvdxk"
+          },
+          {
+            "id": 2,
+            "name": "Belarus",
+            "default": "dhbxbvdxk"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Belarus",
+        "links": "jd",
+        "image": "http://",
+        "description": "Belarus",
+        "cost": "",
+        "moneyBack": "",
+        "bonus": [
+          {
+            "id": 1,
+            "name": "Belarus",
+            "default": "dhbxbvdxk"
+          },
+          {
+            "id": 2,
+            "name": "Belarus",
+            "default": "dhbxbvdxk"
+          }
+        ]
+      }
+    ],
+    "chashbackCards": [
+      {
+        "id": 1,
+        "name": "Belarus",
+        "links": "jd",
+        "image": "http://",
+        "description": "Belarus",
+        "cost": "",
+        "moneyBack": "",
+        "bonus": [
+          {
+            "id": 1,
+            "name": "Belarus",
+            "default": "dhbxbvdxk"
+          },
+          {
+            "id": 2,
+            "name": "Belarus",
+            "default": "dhbxbvdxk"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "БеларусБанк",
+    "description": "Chas sdf sdf sdfh",
+    "image": "/img/belarusbank_logo.jpg",
+    "news": [
+      {
+        "id": 1,
+        "name": "Belarus",
+        "description": "logo image",
+        "links": "http://"
+      },
+      {
+        "id": 2,
+        "name": "Belarus",
+        "description": "logo image",
+        "links": "http://"
+      }
+    ],
+    "adresses": [
+      {
+        "id": 1,
+        "area": "dfgh",
+        "street": "",
+        "home": 1,
+        "building": ""
+      },
+      {
+        "id": 2,
+        "area": "dfgh",
+        "street": "",
+        "home": 1,
+        "building": ""
+      }
+    ],
+    "installmentCards": [
+      {
+        "id": 1,
+        "name": "Belarus",
+        "links": "jd",
+        "image": "http://",
+        "description": "Belarus",
+        "cost": "",
+        "moneyBack": "",
+        "bonus": [
+          {
+            "id": 1,
+            "name": "Belarus",
+            "default": "dhbxbvdxk"
+          },
+          {
+            "id": 2,
+            "name": "Belarus",
+            "default": "dhbxbvdxk"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Belarus",
+        "links": "jd",
+        "image": "http://",
+        "description": "Belarus",
+        "cost": "",
+        "moneyBack": "",
+        "bonus": [
+          {
+            "id": 1,
+            "name": "Belarus",
+            "default": "dhbxbvdxk"
+          },
+          {
+            "id": 2,
+            "name": "Belarus",
+            "default": "dhbxbvdxk"
+          }
+        ]
+      }
+    ],
+    "chashbackCards": [
+      {
+        "id": 1,
+        "name": "Belarus",
+        "links": "jd",
+        "image": "http://",
+        "description": "Belarus",
+        "cost": "",
+        "moneyBack": "",
+        "bonus": [
+          {
+            "id": 1,
+            "name": "Belarus",
+            "default": "dhbxbvdxk"
+          },
+          {
+            "id": 2,
+            "name": "Belarus",
+            "default": "dhbxbvdxk"
+          }
+        ]
+      }
+    ]
+  }
+],
+  "adreses": [
+    {
+      "id": 67811,
+      "bankid": 890542,
+      "area": "123",
+      "street": "",
+      "home": 671,
+      "building": ""
+    },
+    {
+      "id": 8902,
+      "bankId": 1,
+      "area": "dfgaaaaaaaaaaaaaaaaaah",
+      "street": "",
+      "home": 1,
+      "building": ""
+    }
+  ],
+  "news": [
+    {
+      "id": 11456234,
+      "bankid": 1,
+      "name": "Belarus",
+      "description": "logo image",
+      "links": "http://"
+    },
+    {
+      "id": 224234231,
+      "bankid": 890542,
+      "name": "Belaaaaaaaaaaaaaaaaaaaaaaaaaaadssssssssssssadarus",
+      "description": "asdfdsfsdfsdf",
+      "links": "http://"
+    }
+  ],
+  "installment-cards": [
+    {
+      "id": 71,
+      "bankid": 890542,
+      "name": "Bela787546456rus",
+      "links": "jd",
+      "image": "/installment/1.jfif",
+      "description": "Belarus",
+      "cost": "",
+      "moneyBack": "",
+      "bonus": [
+        {
+          "id": 156,
+          "name": "Belarus",
+          "default": "dhbxbvdxk"
+        },
+        {
+          "id": 9872,
+          "name": "Belarus",
+          "default": "dhbxbvdxk"
+        }
+      ]
+    },
+    {
+      "id": 6751,
+      "bankid": 890542,
+      "name": "Bedfgfdgfhfghfghlarus",
+      "links": "jd",
+      "image": "/installment/2.jfif",
+      "description": "Belarus",
+      "cost": "",
+      "moneyBack": "",
+      "bonus": [
+        {
+          "id": 46761,
+          "name": "Belarus",
+          "default": "dhbxbvdxk"
+        },
+        {
+          "id": 2434,
+          "name": "Belarus",
+          "default": "dhbxbvdxk"
+        }
+      ]
+    },
+    {
+      "id": 6751,
+      "bankid": 890542,
+      "name": "Bedfgfdgfhfghfghlarus",
+      "links": "jd",
+      "image": "/installment/3.jfif",
+      "description": "Belarus",
+      "cost": "",
+      "moneyBack": "",
+      "bonus": [
+        {
+          "id": 46761,
+          "name": "Belarus",
+          "default": "dhbxbvdxk"
+        },
+        {
+          "id": 2434,
+          "name": "Belarus",
+          "default": "dhbxbvdxk"
+        }
+      ]
+    }
+  ],
+  "cashback-cards": [
+    {
+      "id": 234561,
+      "bankid": 890542,
+      "name": "Карта пилот",
+      "links": "jd",
+      "image": "/cashback/53d7312af2eb9414521a16c712f460b9.png",
+      "description": "описание карты ",
+      "cost": "",
+      "moneyBack": "",
+      "bonus": [
+        {
+          "id": 1233451,
+          "name": "Belarus",
+          "default": "dhbxbvdxk"
+        },
+        {
+          "id": 23545345,
+          "name": "Belarus",
+          "default": "dhbxbvdxk"
+        }
+      ]
+    },
+    {
+      "id": 234345657654,
+      "bankid": 890542,
+      "name": "Карта пилот",
+      "links": "jd",
+      "image": "/cashback/969381a877309e733fcb9d7b7e3df43b.png",
+      "description": "описание карты ",
+      "cost": "",
+      "moneyBack": "",
+      "bonus": [
+        {
+          "id": 1233451,
+          "name": "Belarus",
+          "default": "dhbxbvdxk"
+        },
+        {
+          "id": 23545345,
+          "name": "Belarus",
+          "default": "dhbxbvdxk"
+        }
+      ]
+    },
+    {
+      "id": 234345234561,
+      "bankid": 890542,
+      "name": "Карта пилот",
+      "links": "jd",
+      "image": "/cashback/5406ced00c748495a46d933261269443.jfif",
+      "description": "описание карты ",
+      "cost": "",
+      "moneyBack": "",
+      "bonus": [
+        {
+          "id": 1233451,
+          "name": "Belarus",
+          "default": "dhbxbvdxk"
+        },
+        {
+          "id": 23545345,
+          "name": "Belarus",
+          "default": "dhbxbvdxk"
+        }
+      ]
+    }
+  ]
+}

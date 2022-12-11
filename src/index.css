@@ -302,12 +302,6 @@ code {
 }
 
 .bank_block {
-  display: grid;
-  grid-template-areas:
-    "A B "
-    "C C ";
-  grid-template-columns: 500px 1fr;
-  grid-template-rows: 1fr;/*можно сделать статичным, но пака динамичный*/
   width: 1000px;
   border-radius: 20px;
   background-color: rgba(185, 189, 197, 0.26);
@@ -315,9 +309,13 @@ code {
   margin-bottom: 20px;
 }
 
+.bank_main_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
 .image_block {
-  display: grid;
-  grid-area: A;
   justify-items: center;
   align-items: center;
   max-width: 430px;
@@ -331,13 +329,19 @@ code {
 }
 
 .info_block {
+
   display: block;
   grid-area: B;
   justify-items: center;
   align-items: center;
   margin-top: 25px;
   margin-left: 10px;
-  width: 90%;
+  width: 50%;
+}
+
+.info_block h3 {
+  width: 100%;
+  text-align: center;
 }
 .divbutton{
   grid-area: C;

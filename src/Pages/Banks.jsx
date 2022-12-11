@@ -1,12 +1,27 @@
-import React, {Component} from 'react'
+import React from 'react';
+import {useGetBanksQuery} from "../redux/banksApi";
+import BankForm from "../Components/BankForm/BankForm";
 
-export default class Banks extends Component {
-    render(){
-        return (
-            <div>
-                <h1>Банки</h1>
-            </div>
-        )
-    }
-};
+function Banks() {
 
+  const {data = [], isLoading = false} = useGetBanksQuery()
+
+  if (isLoading) return (
+    <div className="spinner-border" role="status">
+      <span className="sr-only">Loading...</span>
+    </div>
+  )
+
+    return (
+      <section>
+          <h1>Банки</h1>
+          {
+            data.map(bank => (
+                <BankForm bank={bank}/>
+              ))
+          }
+      </section>
+    )
+}
+
+export default Banks;
