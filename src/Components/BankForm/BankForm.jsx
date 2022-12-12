@@ -19,7 +19,7 @@ function BankForm({bank}) {
 
 				</div>
 			</div>
-			<Button variant="text" onClick={() => setIsActiveCard(!isActiveCard)}>{!isActiveCard ? "Подробнее" : "Свернуть"}</Button>
+			<Button sx={{color: "white"}} variant="text" onClick={() => setIsActiveCard(!isActiveCard)}>{!isActiveCard ? "Подробнее" : "Свернуть"}</Button>
 			<div className="content_block">
 				{isActiveCard && <BankCardForm bankid={bank.id} title={"Кэшбэк карты"} path={"cashback"} getApi={useGetCashbackCardsByBankIdQuery}/> }
 				{isActiveCard && <BankCardForm bankid={bank.id} title={"Карты рассрочки"} path={"installment"} getApi={useGetInstallmentCardsByBankIdQuery}/> }

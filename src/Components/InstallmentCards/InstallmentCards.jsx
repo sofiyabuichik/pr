@@ -4,7 +4,7 @@ import {useGetInstallmentCardsQuery} from "../../redux/installmentCardApi";
 
 export default function InstallmentCards() {
 
-  const {data = [], isLoading = false} = useGetInstallmentCardsQuery()
+  const {data = [], isLoading = false} = useGetInstallmentCardsQuery(5)
 
   if (isLoading) return (
     <div className="spinner-border" role="status">

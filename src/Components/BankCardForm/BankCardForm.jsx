@@ -6,8 +6,8 @@ function BankCardForm({ bankid = 1, title = "карты", path = 'none', getApi 
 	const {data = [], isLoading = false} = getApi(bankid)
 
 	return (
-		<div className="cashback_content">
-			<h1>{title}</h1>
+		<div className="bank__card-content">
+			<h2>{title}</h2>
 			{
 				isLoading &&
 				<div className="spinner-border" role="status">

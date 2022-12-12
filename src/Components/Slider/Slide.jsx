@@ -2,8 +2,6 @@ import React from 'react'
 import { HashLink as Link } from 'react-router-hash-link';
 
 export default function Slide({item, width, path}) {
-
-  console.log(item)
   return (
     <Link to={path ? `/${path}#${item.id}` : "#"}>
       <div

@@ -5,7 +5,7 @@ import {useGetCashbackCardsQuery} from "../../redux/cashbackCardApi";
 export default function CashbackCard() {
 
 
-  const {data = [], isLoading = false} = useGetCashbackCardsQuery()
+  const {data = [], isLoading = false} = useGetCashbackCardsQuery(5)
 
   if (isLoading) return (
     <div className="spinner-border" role="status">
@@ -17,9 +17,9 @@ export default function CashbackCard() {
     <section className='ChashbekCard'>
         <h1>Кэшбэк карты</h1>
         <p className='Chashbekh3'>Кешбэк — это возврат некоторой части расходов на оплату товаров и услуг.</p>
-        <div className='Chashback_sliders'>
-            <Slider array={data} path={"cashback"}/>
-        </div>
+
+        <Slider array={data} path={"cashback"}/>
+
     </section>
   )
 }
