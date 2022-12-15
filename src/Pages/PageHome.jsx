@@ -6,7 +6,7 @@ import HomeTextBlock from '../Components/HomeTextBlock/HomeTextBlock';
 import InstallmentCards from '../Components/InstallmentCards/InstallmentCards';
 import LargestBanks from '../Components/LargestBanks/LargestBanks';
 
-export default function Home() {
+export default function PageHome() {
 
   return (
     <div>
@@ -14,7 +14,7 @@ export default function Home() {
       <HomeTextBlock/>
       {/*the largest banks*/}
       <LargestBanks/>
-      {/*/!*Cashback Card *!/*/}
+      {/*/!*PageCashback Card *!/*/}
       <CashbackCard/>
       {/*/!*Installment Cards*!/*/}
       <InstallmentCards/>

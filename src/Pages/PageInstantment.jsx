@@ -1,8 +1,9 @@
 import React from 'react'
 import Slider from "../Components/Slider/Slider";
 import {useGetInstallmentCardsQuery} from "../redux/installmentCardApi";
+import Slide from "../Components/Slider/Slide";
 
-function Instantment () {
+function PageInstantment () {
 
   const {data = [], isLoading = false} = useGetInstallmentCardsQuery()
 
@@ -15,9 +16,19 @@ function Instantment () {
           <span className="sr-only"></span>
         </div>
       }
-      <Slider array={data}/>
+      <div className="cards-container">
+        <>
+          {
+
+            data && data.map((card) => <Slide item={card}/>)
+            // data && data.map((card) => <Slide item={card}/>)
+
+          }
+        </>
+      </div>
+      {/*<Slider array={data}/>*/}
     </section>
   )
 }
 
-export default Instantment
+export default PageInstantment

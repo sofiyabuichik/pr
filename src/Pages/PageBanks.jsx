@@ -2,7 +2,7 @@ import React from 'react';
 import {useGetBanksQuery} from "../redux/banksApi";
 import BankForm from "../Components/BankForm/BankForm";
 
-function Banks() {
+function PageBanks() {
 
   const {data = [], isLoading = false} = useGetBanksQuery()
 
@@ -24,4 +24,4 @@ function Banks() {
     )
 }
 
-export default Banks;
+export default PageBanks;
