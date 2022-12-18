@@ -31,7 +31,7 @@ function Slider({array, width = 800, path = null}) {
           </button>
           <div className="slider-dots">
             {
-              array.map((el, index, arr) => index < arr.length - 2 && <div className={`slider-dot ${index === score ? "active" : null}`} onClick={() => setScore(index)}></div>)
+              array.map((el, index, arr) => index < arr.length - 2 && <div key={el.id || Date.now()} className={`slider-dot ${index === score ? "active" : null}`} onClick={() => setScore(index)}></div>)
             }
           </div>
         </>

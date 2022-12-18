@@ -20,6 +20,7 @@ function PageBanks() {
                 <BankForm bank={bank}/>
               ))
           }
+
       </section>
     )
 }

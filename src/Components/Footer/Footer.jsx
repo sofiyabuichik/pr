@@ -11,8 +11,8 @@ export default function Footer() {
         <div className="link_wrapper">
           <Link to="/" children="Главная"/>
           <Link to="/banks" children="Банки"/>
-          <Link to="/chashbek" children="Кэшбэк карты"/>
-          <Link to="/rassrochka" children="Карта рассрочки"/>
+          <Link to="/cashback" children="Кэшбэк карты"/>
+          <Link to="/installment" children="Карта рассрочки"/>
         </div>
     </section>
   )

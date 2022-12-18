@@ -15,6 +15,10 @@ export const cashbackCardsApi = createApi({
 		getCashbackCardById: build.query({
 			query: (id) => `cashback-cards/${id}`,
 		}),
+		getCashbackCardByName: build.query({
+			query: (name = '') => `cashback-cards?name=${name}`
+
+		}),
 		// addProduct: build.mutation({
 		// 	query: (body) => ({
 		// 		url: 'cashback-cards',
@@ -33,4 +37,4 @@ export const cashbackCardsApi = createApi({
 	})
 });
 
-export const {useGetCashbackCardsQuery, useGetCashbackCardsByBankIdQuery, useGetCashbackCardByIdQuery, useAddProductMutation, useDeleteProductMutation} = cashbackCardsApi;
+export const {useGetCashbackCardsQuery, useGetCashbackCardByNameQuery, useGetCashbackCardsByBankIdQuery, useGetCashbackCardByIdQuery, useAddProductMutation, useDeleteProductMutation} = cashbackCardsApi;

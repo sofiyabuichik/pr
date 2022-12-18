@@ -2,6 +2,10 @@
   font-family: 'Calibri', sans-serif;
 }
 
+.App {
+  overflow: hidden;
+}
+
 body {
   margin: 0;
 
@@ -90,7 +94,6 @@ section h1, .bank__card-content h2{
   height: 580px;
   display: flex;
   flex-direction: column;
-  margin-top: 78px;
   margin: 0 auto;
 }
 
@@ -246,8 +249,8 @@ section h1, .bank__card-content h2{
 }
 
 .slide {
-  cursor: pointer;
-  color: rgba(93, 44, 116, 0.75);
+
+  color: rgb(190, 44, 111);
   display: inline-block;
   align-items: center;
   margin: 0px 0 0px 25px;
@@ -283,18 +286,21 @@ section h1, .bank__card-content h2{
 }
 
 .slide-text {
+  cursor: pointer;
   letter-spacing: 0.3px;
   margin: auto;
   width: 90%;
   height: 160px;
   overflow: hidden;
   text-overflow: ellipsis;
-  /*padding: 0 20px;*/
 }
 
+
+
 .slide h2 {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 26px;
+  text-shadow: 1px 1px 4px rgba(116, 116, 116, 0.25);
 }
 
 .slide p {
@@ -357,8 +363,12 @@ section h1, .bank__card-content h2{
   padding-top: 10px;
   justify-items: center;
   align-items: center;
-  max-width: 430px;
-  max-height: 430px;
+  width: 430px;
+  height: 350px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -427,4 +437,32 @@ section h1, .bank__card-content h2{
   box-shadow: 1px 1px 5px rgba(123, 112, 112, 0.22);
   /*margin-bottom: 20px;*/
   height: max-content;
+}
+
+.search-block {
+  position: absolute;
+  top: 60px;
+  width: 250px;
+  background-color: #FFFFFF;
+  padding: 10px;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 2px 2px 5px rgba(121, 74, 153, 0.10);
+}
+
+.search-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-section a {
+  text-decoration: none;
+  color: rgb(190, 44, 111);
+  padding: 3px;
+  border-radius: 3px;
+}
+
+.search-section a:focus-visible {
+  background-color: #e3e4ef;
+
 }

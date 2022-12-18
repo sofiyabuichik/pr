@@ -1,22 +1,20 @@
 import React from 'react'
-import Slider from "../Components/Slider/Slider";
 import {useGetCashbackCardsQuery} from "../redux/cashbackCardApi";
 import Slide from "../Components/Slider/Slide";
 
 function PageCashback() {
   const {data = [], isLoading = false} = useGetCashbackCardsQuery()
   return (
-    <section>
-
-          <h1>Кэшбэк карты</h1>
-
-      {
-        isLoading &&
-        <div className="spinner-border" role="status">
-          <span className="sr-only"></span>
-        </div>
-      }
-      <div className="cards-container">
+    <>
+      <section>
+        <h1>Кэшбэк карты</h1>
+        {
+          isLoading &&
+          <div className="spinner-border" role="status">
+            <span className="sr-only"></span>
+          </div>
+        }
+        <div className="cards-container">
           <>
             {
 
@@ -25,11 +23,9 @@ function PageCashback() {
 
             }
           </>
-      </div>
-
-          {/*<Slider array={data}/>*/}
-
-    </section>
+        </div>
+      </section>
+    </>
   )
 }
 

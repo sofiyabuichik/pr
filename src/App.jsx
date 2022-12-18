@@ -8,6 +8,7 @@ import PageBanks from './Pages/PageBanks';
 import PageCashback from "./Pages/PageCashback";
 import PageInstantment from "./Pages/PageInstantment";
 import CardForm from "./Components/CardForm/CardForm";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
 
@@ -21,7 +22,8 @@ function App() {
             <Route exact path="/cashback" element={<PageCashback/>}/>
             <Route exact path="/cashback/:id" element={<CardForm/>}/>
             <Route exact path="/installment" element={<PageInstantment/>}/>
-        </Routes> 
+        </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   );

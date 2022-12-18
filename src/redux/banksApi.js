@@ -9,22 +9,11 @@ export const banksApi = createApi({
 			query: (limit = '') => `banks?${limit && `_limit=${limit}`}`,
 
 		}),
-		// addProduct: build.mutation({
-		// 	query: (body) => ({
-		// 		url: 'banks',
-		// 		method: 'POST',
-		// 		body,
-		// 	}),
-		// 	invalidatesTags: [{type: 'Products', id: 'LIST'}]
-		// }),
-		// deleteProduct: build.mutation({
-		// 	query: (id) => ({
-		// 		url: `banks/${id}`,
-		// 		method: 'DELETE',
-		// 	}),
-		// 	invalidatesTags: [{type: 'Products', id: 'LIST'}]
-		// })
+		getBanksByApi: build.query({
+			query: (name = '') => `banks?name=${name.toLowerCase()}`
+		}),
+
 	})
 });
 
-export const {useGetBanksQuery, useAddProductMutation, useDeleteProductMutation} = banksApi;
+export const {useGetBanksQuery, useGetBanksByApiQuery, useAddProductMutation, useDeleteProductMutation} = banksApi;

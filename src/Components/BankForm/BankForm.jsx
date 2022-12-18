@@ -1,17 +1,25 @@
 import React, {useState} from 'react';
-import {Button} from "@mui/material";
+import {Button, Skeleton} from "@mui/material";
 import BankCardForm from "../BankCardForm/BankCardForm";
 import {useGetCashbackCardsByBankIdQuery} from "../../redux/cashbackCardApi";
 import {useGetInstallmentCardsByBankIdQuery} from "../../redux/installmentCardApi";
+import { useInView } from 'react-intersection-observer';
 
 function BankForm({bank}) {
 	const [isActiveCard, setIsActiveCard] = useState(false)
 
+	const { ref, inView } = useInView({
+		threshold: 0,
+	});
+
 	return (
 		<div className="bank_block" id={bank.id} key={bank.id || Date.now()}>
 			<div className="bank_main_wrapper">
-				<div className="image_block">
-					<img src={bank.image} alt=""/>
+				<div className="image_block" ref={ref}>
+					{
+						inView ? <img src={bank.image} alt=""/> : <Skeleton variant="rectangular" width={300} height={300} />
+
+					}
 				</div>
 				<div className="info_block">
 					<h3>{bank.name}</h3>

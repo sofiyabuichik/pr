@@ -1,428 +1,83 @@
 {
   "banks": [
-  {
-    "id": 1,
-    "name": "БеларусБанк",
-    "description": "Сберегательный банк «Беларусбанк» — крупнейший в Республике Беларусь банк, занимает лидирующие позиции в белорусской банковской системе по уровню собственного капитала, активов, кредитов, депозитов.",
-    "image": "/img/belarusbank_logo.jpg"
-  },
-  {
-    "id": 890542,
-    "name": "Альфа Банк",
-    "description": "ЗАО «Альфа-банк» — белорусский коммерческий банк, часть международного финансового консорциума «Альфа-групп». Входит в десятку крупнейших банков Белоруссии по объему активов по данным рейтингов Национального банка РБ.",
-    "image": "/img/alfa.png",
-    "news": [
-      {
-        "id": 6731,
-        "name": "Belarus",
-        "description": "logo image",
-        "links": "http://"
-      },
-      {
-        "id": 27707,
-        "name": "Belarus",
-        "description": "logo image",
-        "links": "http://"
-      }
-    ],
-    "adresses": [
-      {
-        "id": 456461,
-        "area": "dfgh",
-        "street": "",
-        "home": 1,
-        "building": ""
-      },
-      {
-        "id": 45642335,
-        "area": "dfgh",
-        "street": "",
-        "home": 1,
-        "building": ""
-      }
-    ],
-    "installmentCards": [
-      {
-        "id": 35353253251,
-        "name": "Belarus",
-        "links": "jd",
-        "image": "http://",
-        "description": "Belarus",
-        "cost": "",
-        "moneyBack": "",
-        "bonus": [
-          {
-            "id": 678681,
-            "name": "Belarus",
-            "default": "dhbxbvdxk"
-          },
-          {
-            "id": 6785456462,
-            "name": "Belarus",
-            "default": "dhbxbvdxk"
-          }
-        ]
-      },
-      {
-        "id": 7895461,
-        "name": "Belarus",
-        "links": "jd",
-        "image": "http://",
-        "description": "Belarus",
-        "cost": "",
-        "moneyBack": "",
-        "bonus": [
-          {
-            "id": 4646464561,
-            "name": "Belarus",
-            "default": "dhbxbvdxk"
-          },
-          {
-            "id": 456346464364364654564564564562,
-            "name": "Belarus",
-            "default": "dhbxbvdxk"
-          }
-        ]
-      }
-    ],
-    "chashbackCards": [
-      {
-        "id": 1788990,
-        "name": "Belarus",
-        "links": "jd",
-        "image": "http://",
-        "description": "Belarus",
-        "cost": "",
-        "moneyBack": "",
-        "bonus": [
-          {
-            "id": 431,
-            "name": "Belarus",
-            "default": "dhbxbvdxk"
-          },
-          {
-            "id": 3453452,
-            "name": "Belarus",
-            "default": "dhbxbvdxk"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "name": "Белгазпромбанк",
-    "description": "lorem12 ",
-    "image": "/img/belgazprombanklogo.jpg",
-    "news": [
-      {
-        "id": 1,
-        "name": "Belarus",
-        "description": "logo image",
-        "links": "http://"
-      },
-      {
-        "id": 2,
-        "name": "Belarus",
-        "description": "logo image",
-        "links": "http://"
-      }
-    ],
-    "adresses": [
-      {
-        "id": 1,
-        "area": "dfgh",
-        "street": "",
-        "home": 1,
-        "building": ""
-      },
-      {
-        "id": 2,
-        "area": "dfgh",
-        "street": "",
-        "home": 1,
-        "building": ""
-      }
-    ],
-    "installmentCards": [
-      {
-        "id": 1,
-        "name": "Belarus",
-        "links": "jd",
-        "image": "http://",
-        "description": "Belarus",
-        "cost": "",
-        "moneyBack": "",
-        "bonus": [
-          {
-            "id": 1,
-            "name": "Belarus",
-            "default": "dhbxbvdxk"
-          },
-          {
-            "id": 2,
-            "name": "Belarus",
-            "default": "dhbxbvdxk"
-          }
-        ]
-      },
-      {
-        "id": 1,
-        "name": "Belarus",
-        "links": "jd",
-        "image": "http://",
-        "description": "Belarus",
-        "cost": "",
-        "moneyBack": "",
-        "bonus": [
-          {
-            "id": 1,
-            "name": "Belarus",
-            "default": "dhbxbvdxk"
-          },
-          {
-            "id": 2,
-            "name": "Belarus",
-            "default": "dhbxbvdxk"
-          }
-        ]
-      }
-    ],
-    "chashbackCards": [
-      {
-        "id": 1,
-        "name": "Belarus",
-        "links": "jd",
-        "image": "http://",
-        "description": "Belarus",
-        "cost": "",
-        "moneyBack": "",
-        "bonus": [
-          {
-            "id": 1,
-            "name": "Belarus",
-            "default": "dhbxbvdxk"
-          },
-          {
-            "id": 2,
-            "name": "Belarus",
-            "default": "dhbxbvdxk"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "name": "Альфа Банк",
-    "description": "Chaasdasdsh",
-    "image": "/img/belarusbank_logo.jpg",
-    "news": [
-      {
-        "id": 1,
-        "name": "Belarus",
-        "description": "logo image",
-        "links": "http://"
-      },
-      {
-        "id": 2,
-        "name": "Belarus",
-        "description": "logo image",
-        "links": "http://"
-      }
-    ],
-    "adresses": [
-      {
-        "id": 1,
-        "area": "dfgh",
-        "street": "",
-        "home": 1,
-        "building": ""
-      },
-      {
-        "id": 2,
-        "area": "dfgh",
-        "street": "",
-        "home": 1,
-        "building": ""
-      }
-    ],
-    "installmentCards": [
-      {
-        "id": 1,
-        "name": "Belarus",
-        "links": "jd",
-        "image": "http://",
-        "description": "Belarus",
-        "cost": "",
-        "moneyBack": "",
-        "bonus": [
-          {
-            "id": 1,
-            "name": "Belarus",
-            "default": "dhbxbvdxk"
-          },
-          {
-            "id": 2,
-            "name": "Belarus",
-            "default": "dhbxbvdxk"
-          }
-        ]
-      },
-      {
-        "id": 1,
-        "name": "Belarus",
-        "links": "jd",
-        "image": "http://",
-        "description": "Belarus",
-        "cost": "",
-        "moneyBack": "",
-        "bonus": [
-          {
-            "id": 1,
-            "name": "Belarus",
-            "default": "dhbxbvdxk"
-          },
-          {
-            "id": 2,
-            "name": "Belarus",
-            "default": "dhbxbvdxk"
-          }
-        ]
-      }
-    ],
-    "chashbackCards": [
-      {
-        "id": 1,
-        "name": "Belarus",
-        "links": "jd",
-        "image": "http://",
-        "description": "Belarus",
-        "cost": "",
-        "moneyBack": "",
-        "bonus": [
-          {
-            "id": 1,
-            "name": "Belarus",
-            "default": "dhbxbvdxk"
-          },
-          {
-            "id": 2,
-            "name": "Belarus",
-            "default": "dhbxbvdxk"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "name": "БеларусБанк",
-    "description": "Chas sdf sdf sdfh",
-    "image": "/img/belarusbank_logo.jpg",
-    "news": [
-      {
-        "id": 1,
-        "name": "Belarus",
-        "description": "logo image",
-        "links": "http://"
-      },
-      {
-        "id": 2,
-        "name": "Belarus",
-        "description": "logo image",
-        "links": "http://"
-      }
-    ],
-    "adresses": [
-      {
-        "id": 1,
-        "area": "dfgh",
-        "street": "",
-        "home": 1,
-        "building": ""
-      },
-      {
-        "id": 2,
-        "area": "dfgh",
-        "street": "",
-        "home": 1,
-        "building": ""
-      }
-    ],
-    "installmentCards": [
-      {
-        "id": 1,
-        "name": "Belarus",
-        "links": "jd",
-        "image": "http://",
-        "description": "Belarus",
-        "cost": "",
-        "moneyBack": "",
-        "bonus": [
-          {
-            "id": 1,
-            "name": "Belarus",
-            "default": "dhbxbvdxk"
-          },
-          {
-            "id": 2,
-            "name": "Belarus",
-            "default": "dhbxbvdxk"
-          }
-        ]
-      },
-      {
-        "id": 1,
-        "name": "Belarus",
-        "links": "jd",
-        "image": "http://",
-        "description": "Belarus",
-        "cost": "",
-        "moneyBack": "",
-        "bonus": [
-          {
-            "id": 1,
-            "name": "Belarus",
-            "default": "dhbxbvdxk"
-          },
-          {
-            "id": 2,
-            "name": "Belarus",
-            "default": "dhbxbvdxk"
-          }
-        ]
-      }
-    ],
-    "chashbackCards": [
-      {
-        "id": 1,
-        "name": "Belarus",
-        "links": "jd",
-        "image": "http://",
-        "description": "Belarus",
-        "cost": "",
-        "moneyBack": "",
-        "bonus": [
-          {
-            "id": 1,
-            "name": "Belarus",
-            "default": "dhbxbvdxk"
-          },
-          {
-            "id": 2,
-            "name": "Belarus",
-            "default": "dhbxbvdxk"
-          }
-        ]
-      }
-    ]
-  }
-],
+    {
+      "id": 1,
+      "name": "БеларусБанк",
+      "description": "Сберегательный банк «Беларусбанк» — крупнейший в Республике Беларусь банк, занимает лидирующие позиции в белорусской банковской системе по уровню собственного капитала, активов, кредитов, депозитов.",
+      "image": "https://belarusbank.by/site_ru/30744/Logo%20rus%20bel.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Альфа Банк",
+      "description": "ЗАО «Альфа-банк» — белорусский коммерческий банк, часть международного финансового консорциума «Альфа-групп». Входит в десятку крупнейших банков Белоруссии по объему активов по данным рейтингов Национального банка РБ.",
+      "image": "https://www.sostav.ru/images/news/2019/05/08/wwh5l7ed.png "
+
+    },
+    {
+      "id": 3,
+      "name": "Белгазпромбанк",
+      "description": "ОАО «Белгазпромбанк» — содействует формированию и развитию среднего класса в Республике Беларусь путем предоставления клиентоориентированных высокотехнологичных банковских продуктов и услуг.",
+      "image": "https://belgazprombank.by/uploads/userfiles/images/logorus.png"
+    },
+    {
+      "id": 4,
+      "name": "Сбер Банк",
+      "description": "Один из крупнейших банков Беларуси по размеру активов и трендсеттер в сфере цифровизации белорусского банкинга",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Sberbank_Logo_2020.svg"
+    },
+    {
+      "id": 5,
+      "name": "Белагропромбанк",
+      "description": "ОАО «Белагропромбанк» – обладатель Премии Правительства Республики Беларусь за достижения в области качества.",
+      "image": "https://mlife.by/upload/iblock/ed8/ed8e7be940c9c0bf0786ffbf48300e99.gif"
+    },
+    {
+      "id": 6,
+      "name": "БелВЭБ",
+      "description": "ОАО «Банк БелВЭБ» - инновационный банк, в котором сочетаются новейшие технологии оказания качественных финансовых услуг и банковских решений. Открытое акционерное общество «Белвнешэкономбанк» зарегистрировано 12 декабря 1991 года Национальным банком Республики Беларусь под регистрационным номером 24.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b3/BelVEB-logo.svg"
+    },
+    {
+      "id": 7,
+      "name": "БСБ Банк",
+      "description": "БСБ Банк предоставляет комплекс услуг частным и корпоративным клиентам. Деятельность Банка основана на высоком качестве и клиентоориентированности. Системы дистанционного обслуживания клиентов и контроль качества оказываемых услуг позволяют БСБ Банку полно и оперативно удовлетворять потребности каждого Клиента.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/%D0%91%D0%A1%D0%91%D0%91%D0%B0%D0%BD%D0%BA.png/120px-%D0%91%D0%A1%D0%91%D0%91%D0%B0%D0%BD%D0%BA.png"
+    },
+    {
+      "id": 8,
+      "name": "БНБ-Банк",
+      "description": "FEEL THE FUTURE - Банк, который создает будущее!",
+      "image": "https://bnb.by/local/frontend/build/images/svg-images/f-logo.svg"
+    },
+    {
+      "id": 9,
+      "name": "МТБанк",
+      "description": "МТБанк - инновационный банк с иностранным капиталом. С 1994 года предоставляет технологичные финансовые сервисы для частных клиентов и бизнеса. Входит в топ-10 белорусских банков.",
+      "image": "https://bobr.by/_image/MTIvdaW1hZ2U9JTJGZGF0YSUyRmJhbmtpJTJGaW1hZ2VfMjEucG5nJndpZHRoPTE1MA==4xL3h/"
+    },
+    {
+      "id": 10,
+      "name": "Приорбанк",
+      "description": "Крупнейший коммерческий банк Беларуси предлагающий полный спектр банковских услуг для частных лиц и бизнеса.",
+      "image": "http://plc.by/wp-content/uploads/2017/08/prior.png"
+    },
+    {
+      "id": 11,
+      "name": "Белинвестбанк",
+      "description": "Один из крупных универсальных банков республики, предоставляющий полный комплекс услуг юридическим и физическим лицам различных форм собственности и направлений деятельности. Обеспечивая устойчивое функционирование Банк сохраняет свое присутствие среди крупнейших банков республики.",
+      "image": "https://ftime.by/sites/default/files/banki/belinvestbank-logo.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Паритетбанк",
+      "description": "Белорусский акционерный коммерческий банк. Основной акционер - Государственный комитет по имуществу Республики Беларусь. Юридический статус - Открытое акционерное общество. Основан 1991 году.",
+      "image": "https://creditportal.by/images/virtuemart/manufacturer/paritetbank.png"
+    }
+  ],
   "adreses": [
     {
       "id": 67811,
-      "bankid": 890542,
+      "bankid": 1,
       "area": "123",
       "street": "",
       "home": 671,
@@ -439,90 +94,154 @@
   ],
   "news": [
     {
-      "id": 11456234,
+      "id": 1000,
       "bankid": 1,
-      "name": "Belarus",
-      "description": "logo image",
-      "links": "http://"
+      "name": "Изменения в Условия предоставления, обслуживания и использования личной карточки ОАО «АСБ Беларусбанк» (вступают в силу с 29.04.2022)",
+      "description": "Уважаемые клиенты! С 29.04.2022 вступают в силу изменения к Условиям предоставления, обслуживания и использования личной карточки ОАО «АСБ Беларусбанк» в связи с принятым решением о продлении срока использования отдельных типов банковских платежных карточек (без из физической замены). Подробнее о перечне карточных продуктов и условиях использования карточек по истечении срока их действия можно ознакомиться на корпоративном сайте банка в разделе «Условия обслуживания платежных карточек с истекшим сроком действия», а также в рамках пресс-релиза от 13.05.2022 в разделе «Новости банка и пресс-релизы». С изменениями можно ознакомиться здесь:",
+      "links": "https://belarusbank.by/ru/fizicheskim_licam/cards/36539/39299"
     },
     {
-      "id": 224234231,
-      "bankid": 890542,
-      "name": "Belaaaaaaaaaaaaaaaaaaaaaaaaaaadssssssssssssadarus",
-      "description": "asdfdsfsdfsdf",
-      "links": "http://"
+      "id": 1001,
+      "bankid": 2,
+      "name": "Выиграйте 50 000 BYN, оплачивая покупки картой Mastercard",
+      "description": "С 5 декабря по 12 февраля рассчитывайтесь картой Mastercard Альфа Банка и получите шанс выиграть 50 000 BYN в игре “Плати разумно с Mastercard”.",
+      "links": "https://www.alfabank.by/about/articles/uvedomleniya/mc-7-12-22/"
+    },{
+      "id": 1002,
+      "bankid": 2,
+      "name": "Изменения в Условия предоставления, обслуживания и использования личной карточки ОАО «АСБ Беларусбанк» (вступают в силу с 29.04.2022)",
+      "description": "Уважаемые клиенты! С 29.04.2022 вступают в силу изменения к Условиям предоставления, обслуживания и использования личной карточки ОАО «АСБ Беларусбанк» в связи с принятым решением о продлении срока использования отдельных типов банковских платежных карточек (без из физической замены). Подробнее о перечне карточных продуктов и условиях использования карточек по истечении срока их действия можно ознакомиться на корпоративном сайте банка в разделе «Условия обслуживания платежных карточек с истекшим сроком действия», а также в рамках пресс-релиза от 13.05.2022 в разделе «Новости банка и пресс-релизы». С изменениями можно ознакомиться здесь:",
+      "links": "https://belarusbank.by/ru/fizicheskim_licam/cards/36539/39299"
+    },
+    {
+      "id": 1003,
+      "bankid": 3,
+      "name": "Выигрывайте денежные призы с карточками Mastercard Белгазпромбанка",
+      "description": "Оплачивайте покупки и услуги любыми картами Mastercard Белгазпромбанка с 5 декабря 2022 года по 12 февраля 2023 года – и выигрывайте денежные призы!",
+      "links": "https://belgazprombank.by/about/press_centr/novosti_banka/2022/plati-razumno-mastercard/"
+    },
+    {
+      "id": 1004,
+      "bankid": 3,
+      "name": "Рассрочка – минимум 2 месяца. И точка!",
+      "description": "Рассчитываетесь в супермаркетах и заправках «Картой покупок» с рассрочкой в 1 месяц, но этот период для оплаты товаров повседневного спроса и топлива для авто слишком мал? Белгазпромбанк вас услышал! С 5 декабря 2022 года по 30 апреля 2023 года минимальный срок рассрочки по «Карте покупок» составляет не один, а два месяца!",
+      "links": "https://belgazprombank.by/about/press_centr/novosti_banka/2022/rassrochka-2-mes-i-tochka/"
+    },
+    {
+      "id": 1005,
+      "bankid": 3,
+      "name": "С «Картой покупок» – всегда в плюсе!",
+      "description": "С «Картой покупок» у вас всегда есть деньги – а теперь их станет больше! С 1 декабря 2022 года по 31 марта 2023 года открывайте карту рассрочки Белгазпромбанка, расплачивайтесь ей на сумму от 100 белорусских рублей и получайте подарок 30 рублей.",
+      "links": "https://belgazprombank.by/about/press_centr/novosti_banka/2022/s-kartoy-pokupok-vsegda-v-plyuse/"
+    },
+    {
+      "id": 1006,
+      "bankid": 4,
+      "name": "С «Картой покупок» – всегда в плюсе!",
+      "description": "С «Картой покупок» у вас всегда есть деньги – а теперь их станет больше! С 1 декабря 2022 года по 31 марта 2023 года открывайте карту рассрочки Белгазпромбанка, расплачивайтесь ей на сумму от 100 белорусских рублей и получайте подарок 30 рублей.",
+      "links": "https://belgazprombank.by/about/press_centr/novosti_banka/2022/s-kartoy-pokupok-vsegda-v-plyuse/"
     }
   ],
   "installment-cards": [
     {
       "id": 71,
-      "bankid": 890542,
-      "name": "Bela787546456rus",
-      "links": "jd",
-      "image": "/installment/1.jfif",
-      "description": "Belarus",
+      "bankid": 2,
+      "name": "Карта рассрочки «Красная карта»",
+      "links": "https://www.alfabank.by/credits/cards/installment-card/",
+      "image": "https://www.alfabank.by/upload/resize_cache/webp/iblock/5e7/stranica.webp",
+      "description": "Красная карта меняет ваши представления о покупках в рассрочку",
       "cost": "",
       "moneyBack": "",
       "bonus": [
         {
-          "id": 156,
-          "name": "Belarus",
-          "default": "dhbxbvdxk"
+          "id": 99,
+          "name": "Покупки в интернете по самой низкой цене – без проблем!",
+          "default": "Любые белорусские интернет-магазины с самыми выгодными ценами открыты для ваших покупок в рассрочку."
         },
         {
-          "id": 9872,
-          "name": "Belarus",
-          "default": "dhbxbvdxk"
+          "id": 98,
+          "name": "Работает везде, где принимают карту",
+          "default": "Все магазины Беларуси - партнеры банка"
+        },
+        {
+          "id": 96,
+          "name": "Любые акции и распродажи – для вас!",
+          "default": "Скидки, распродажи, красные цены- в рассрочку все товары без исключения."
+        },
+        {
+          "id": 97,
+          "name": "Свобода выбора!",
+          "default": "Выбирайте сами размер платежа и срок рассрочки от 1 месяца до 12 месяцев с помощью мобильного банка «InSync» и SMS."
+        },
+        {
+          "id": 95,
+          "name": "Бесплатная карта",
+          "default": "Получите бесплатно карточку Visa с бесплатным обслуживанием."
+        },
+        {
+          "id": 94,
+          "name": "Сумма покупок в рассрочку",
+          "default": "Покупайте товары в рассрочку на сумму от 20 до 10 000 рублей."
+        },
+        {
+          "id": 93,
+          "name": "Без справки о доходах",
+          "default": "При сумме кредита до 10 000 рублей справка о доходах не требуется."
+        },
+        {
+          "id": 92,
+          "name": "Можно пропустить платеж",
+          "default": "Сумма платежа будет списана со счета кредитной карты."
+        },
+        {
+          "id": 91,
+          "name": "Снятие наличных",
+          "default": "Снимайте наличные в банкоматах."
         }
       ]
     },
     {
-      "id": 6751,
-      "bankid": 890542,
-      "name": "Bedfgfdgfhfghfghlarus",
-      "links": "jd",
-      "image": "/installment/2.jfif",
-      "description": "Belarus",
+      "id": 72,
+      "bankid": 2,
+      "name": "Карта «100 дней»",
+      "links": "https://www.alfabank.by/credits/cards/100-day/",
+      "image": "https://www.alfabank.by/upload/resize_cache/webp/iblock/ce5/razvod.webp",
+      "description": "Дарите радость всем-всем-всем своим близким. Карта «100 дней» для любых покупок и снятия наличных всего под 0,00001% годовых",
+      "cost": "",
+      "moneyBack": "",
+      "bonus": [
+        {
+          "id": 203,
+          "name": "Бесплатная страховка",
+          "default": "Страхуем кредитные карты с беспроцентным периодом на 12 месяцев от утери и кибер-рисков."
+        },
+        {
+          "id": 204,
+          "name": "Проценты на остаток",
+          "default": "Начисление 1% на остаток собственных средств на счёте."
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "bankid": 3,
+      "name": "Карта покупок",
+      "links": "https://kartapokupok.by/ads_lp/?utm_source=belgazprombank.by&utm_medium=article&utm_campaign=kp_action30&utm_content=news",
+      "image": "https://belgazprombank.by/upload/iblock/a1d/l50upcit6rjh7qqd62rqglntu7t9f6kv/BGPB_News_KP_1000x667.jpg",
+      "description": "С «Картой покупок» – всегда в плюсе!",
       "cost": "",
       "moneyBack": "",
       "bonus": [
         {
           "id": 46761,
-          "name": "Belarus",
-          "default": "dhbxbvdxk"
-        },
-        {
-          "id": 2434,
-          "name": "Belarus",
-          "default": "dhbxbvdxk"
+          "name": "",
+          "default": ""
         }
       ]
     },
     {
-      "id": 6751,
-      "bankid": 890542,
-      "name": "Bedfgfdgfhfghfghlarus",
-      "links": "jd",
-      "image": "/installment/3.jfif",
-      "description": "Belarus",
-      "cost": "",
-      "moneyBack": "",
-      "bonus": [
-        {
-          "id": 46761,
-          "name": "Belarus",
-          "default": "dhbxbvdxk"
-        },
-        {
-          "id": 2434,
-          "name": "Belarus",
-          "default": "dhbxbvdxk"
-        }
-      ]
-    },
-    {
-      "id": 734242341,
-      "bankid": 1,
+      "id": 74,
+      "bankid": 0,
       "name": "Bela787546456rus",
       "links": "jd",
       "image": "/installment/1.jfif",
@@ -544,7 +263,7 @@
     },
     {
       "id": 6456342751,
-      "bankid": 1,
+      "bankid": 0,
       "name": "Bedfgfdgfhfghfghlarus",
       "links": "jd",
       "image": "/installment/2.jfif",
@@ -566,7 +285,7 @@
     },
     {
       "id": 675624251,
-      "bankid": 1,
+      "bankid": 0,
       "name": "Bedfgfdgfhfghfghlarus",
       "links": "jd",
       "image": "/installment/3.jfif",
@@ -588,7 +307,7 @@
     },
     {
       "id": 64563443131123132751,
-      "bankid": 1,
+      "bankid": 0,
       "name": "Bedfrus",
       "links": "jd",
       "image": "/installment/2.jfif",
@@ -611,90 +330,701 @@
   ],
   "cashback-cards": [
     {
-      "id": 234561,
-      "bankid": 890542,
-      "name": "Карта пилот",
+      "id": 100,
+      "bankid": 3,
+      "name": "Cashalot",
       "links": "jd",
-      "image": "/cashback/53d7312af2eb9414521a16c712f460b9.png",
-      "description": "описание карты ",
-      "cost": "",
-      "moneyBack": "",
+      "image": "https://belgazprombank.by/upload/iblock/a5e/BGPB_Visa_Cashalot.png",
+      "description": "Cashalot – океан кэшбэка на одной карте!",
+      "cost": "25 BYN",
+      "moneyBack": "до 10%",
       "bonus": [
         {
-          "id": 1233451,
-          "name": "Belarus",
-          "default": "dhbxbvdxk"
+          "id": 1,
+          "name": "Сash-back от 1,5% до 10% при совершении безналичных платежей в партнерской сети",
+          "default": ""
         },
         {
-          "id": 23545345,
-          "name": "Belarus",
-          "default": "dhbxbvdxk"
+          "id": 2,
+          "name": "Cash-back до 1% от суммы при совершении безналичной операции вне партнерской сети на территории РБ",
+          "default": ""
+        },
+        {
+          "id": 3,
+          "name": "Возможность открытия кредитной линии",
+          "default": ""
+        },
+        {
+          "id": 4,
+          "name": "Заказ карточки в «Интернет-банк» и мобильном приложении BGPB mobile с доставкой почтой",
+          "default": ""
+        },
+        {
+          "id": 5,
+          "name": "Отсутствие комиссий и переплат при совершении покупок",
+          "default": ""
+        },
+        {
+          "id": 6,
+          "name": "Срок действия карты: до 5 лет",
+          "default": ""
         }
       ]
     },
     {
-      "id": 234561,
+      "id": 101,
       "bankid": 1,
-      "name": "Карта пилот",
-      "links": "jd",
-      "image": "/cashback/53d7312af2eb9414521a16c712f460b9.png",
-      "description": "описание карты ",
-      "cost": "",
-      "moneyBack": "",
+      "name": "Бархат",
+      "links": "https://belarusbank.by/ru/fizicheskim_licam/cards/zayavka-na-oformlenie-kartochki",
+      "image": "https://belarusbank.by/site_ru/32080/barhat_new.png",
+      "description": "Клуб «Бархат» – уникальное предложение, в которое включена не только карта для получения пенсии, но и выгодные условия пользования другими продуктами и услугами банка. ",
+      "cost": "0 BYN",
+      "moneyBack": "3%",
       "bonus": [
         {
           "id": 1233451,
-          "name": "Belarus",
-          "default": "dhbxbvdxk"
+          "name": "Мани-бэк 1% по операциям в ЕРИП",
+          "default": ""
         },
         {
           "id": 23545345,
-          "name": "Belarus",
-          "default": "dhbxbvdxk"
+          "name": "Мани-бэк при оплате покупок в магазинах-партнерах  ",
+          "default": ""
+        },
+        {
+          "id": 23545346,
+          "name": "Выдача наличных без комиссии",
+          "default": ""
+        },
+        {
+          "id": 23545347,
+          "name": "Повышенная ставка по онлайн-депозитам",
+          "default": ""
+        },
+        {
+          "id": 23545348,
+          "name": "Завещательные распоряжения и доверенности в рамках Клуба без взимания вознаграждения",
+          "default": ""
+        },
+        {
+          "id": 23545349,
+          "name": "Управляйте карточкой и счетом",
+          "default": "SMS-оповещение о приходных и расходных операциях без взимания вознаграждения. Смена ПИН-кода без взимания вознаграждения. Пользование мобильным приложением M-Belarusbank (пакет «Полный») без взимания вознаграждения."
+        },
+        {
+          "id": 23545350,
+          "name": "Скидка на страховку",
+          "default": "Экономьте 15% на оформлении полиса страхования."
+        },
+        {
+          "id": 23545351,
+          "name": "Скидка 50% на аренду банковских сейфов (ячеек).",
+          "default": ""
+        },
+        {
+          "id": 23545352,
+          "name": "Скидки в рамках сервиса «Комплимент от банка»",
+          "default": "Экономьте 15% на оформлении полиса страхования."
         }
       ]
     },
     {
-      "id": 234345657654,
-      "bankid": 890542,
-      "name": "Карта пилот",
-      "links": "jd",
-      "image": "/cashback/969381a877309e733fcb9d7b7e3df43b.png",
-      "description": "описание карты ",
-      "cost": "",
-      "moneyBack": "",
+      "id": 102,
+      "bankid": 1,
+      "name": "Клуб #настарт",
+      "links": "https://belarusbank.by/ru/fizicheskim_licam/cards/zayavka-na-oformlenie-kartochki",
+      "image": "https://belarusbank.by/site_ru/32305/nas1.png",
+      "description": "Клуб #настарт включает карту для активной молодежи (международная бесконтактная карточка Visa Classic), а также специальные условия использования других продуктов и услуг банка.",
+      "cost": "10 BYN",
+      "moneyBack": "до 12%",
       "bonus": [
         {
           "id": 1233451,
-          "name": "Belarus",
-          "default": "dhbxbvdxk"
+          "name": "Мани-бэк до 12%",
+          "default": "Возвращайте бонусы за покупки в интернете (мани-бэк 1%) и магазинах-партнерах."
         },
         {
-          "id": 23545345,
-          "name": "Belarus",
-          "default": "dhbxbvdxk"
+          "id": 23545352,
+          "name": "Больший доход",
+          "default": "Откройте онлайн-депозит в белорусских рублях «Беларусбанк-онл@йн» (отзывный, безотзывный) со сроком хранения 6 месяцев с увеличенной процентной ставкой."
+        },
+        {
+          "id": 1233453,
+          "name": "Скидка на страховку",
+          "default": "Экономьте 15% на оформлении полиса страхования."
+        },
+        {
+          "id": 23545354,
+          "name": "3 года",
+          "default": ""
+        },
+        {
+          "id": 23545355,
+          "name": "Валюта счета",
+          "default": "BYN, USD, EUR, RUB"
         }
       ]
     },
     {
-      "id": 234345234561,
-      "bankid": 890542,
-      "name": "Карта пилот",
-      "links": "jd",
-      "image": "/cashback/5406ced00c748495a46d933261269443.jfif",
-      "description": "описание карты ",
-      "cost": "",
-      "moneyBack": "",
+      "id": 103,
+      "bankid": 1,
+      "name": "Клуб «Шчодры»",
+      "links": "https://belarusbank.by/ru/fizicheskim_licam/cards/zayavka-na-oformlenie-kartochki",
+      "image": "https://belarusbank.by/site_ru/33697/shchodri_080721.jpg",
+      "description": "Пользуйтесь всеми преимуществами Клуба и с виртуальной карточкой Клуба «Шчодры».",
+      "cost": "19 BYN",
+      "moneyBack": "До 12%",
       "bonus": [
         {
-          "id": 1233451,
-          "name": "Belarus",
-          "default": "dhbxbvdxk"
+          "id": 61,
+          "name": "Мани-бэк до 12%",
+          "default": "Возвращайте часть стоимости от покупок, совершенных в магазинах-партнерах"
         },
         {
-          "id": 23545345,
-          "name": "Belarus",
-          "default": "dhbxbvdxk"
+          "id": 62,
+          "name": "Больший доход",
+          "default": "Откройте онлайн-депозит в белорусских рублях «Беларусбанк-онл@йн» (отзывный, безотзывный) со сроком хранения 9 месяцев с увеличенной процентной ставкой."
+        },
+        {
+          "id": 63,
+          "name": "Пользуйтесь банковскими продуктами на специальных условиях",
+          "default": "скидка в размере 50% на оформление карточки Клуба «Зебра»    скидка 15% на оформление полиса страхования"
+        },
+        {
+          "id": 64,
+          "name": "Больший доход",
+          "default": "Откройте онлайн-депозит в белорусских рублях «Беларусбанк-онл@йн» (отзывный, безотзывный) со сроком хранения 9 месяцев с увеличенной процентной ставкой."
+        },
+        {
+          "id": 65,
+          "name": "Держите все под контролем!",
+          "default": "Получайте оповещения о приходных операциях без взимания вознаграждения."
+        },
+        {
+          "id": 66,
+          "name": "Переводы на карты без комиссии",
+          "default": "Переводите деньги на карточки Клуба «Бархат», «Карт-бланш», #настарт, «Шчодры», Клуб «Зебра», «Леди», «Свои», «Персона», карточку рассрочки «Магнит» и карточку БЕЛКАРТ «Карта учащегося» (не более трех получателей)         Бесплатные переводы доступны в инфокиосках банка, системе Интернет-банкинг, с использованием услуги М-Банкинг"
+        },
+        {
+          "id": 66,
+          "name": "Скидки в рамках сервиса «Комплимент от банка»",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "bankid": 1,
+      "name": "Клуб «Леди»",
+      "links": "https://belarusbank.by/ru/fizicheskim_licam/cards/zayavka-na-oformlenie-kartochki",
+      "image": "https://belarusbank.by/site_ru/35860/1.jpg",
+      "description": "Пользуйтесь всеми преимуществами Клуба и с виртуальной карточкой Клуба «Леди».",
+      "cost": "10 BYN",
+      "moneyBack": "До 12%",
+      "bonus": [
+        {
+          "id": 71,
+          "name": "скидка в размере 50% на оформление карточек Клуб «Зебра»",
+          "default": ""
+        },
+        {
+          "id": 72,
+          "name": "Скидка 15% на оформление полиса страхования",
+          "default": ""
+        },
+        {
+          "id": 73,
+          "name": "Возможность оформления вклада «Дамский к@приз»",
+          "default": ""
+        },
+        {
+          "id": 74,
+          "name": "Мани-бэк 3% на безналичные операции категории «Красота и уход» ",
+          "default": ""
+        },
+        {
+          "id": 75,
+          "name": "Узнать МСС по вашим операциям можно в оповещении об операции",
+          "default": ""
+        },
+        {
+          "id": 76,
+          "name": "Мани-бэк до 12% за покупки в магазинах-партнерах",
+          "default": ""
+        },
+        {
+          "id": 77,
+          "name": "Получайте оповещения о приходных операциях без взимания вознаграждения.",
+          "default": ""
+        },
+        {
+          "id": 78,
+          "name": "Денежные переводы бесплатно",
+          "default": "Денежные переводы без комиссии на карточки Клуб «Зебра», Клуба «Бархат», «Карт-бланш», #настарт, «Шчодры», «Свои», «Персона», «Леди», карточку рассрочки «Магнит» и карточку БЕЛКАРТ «Карта учащегося». Бесплатные переводы доступны в инфокиосках банка, системе «Интернет-банкинг», с использованием услуги «М-Банкинг»"
+        },
+        {
+          "id": 79,
+          "name": "Смена ПИН-кода бесплатно",
+          "default": ""
+        },
+        {
+          "id": 80,
+          "name": "Пользование мобильным приложением M-Belarusbank (пакет «Полный») бесплатно",
+          "default": ""
+        },
+        {
+          "id": 81,
+          "name": "Доступ к мероприятиям закрытого сообщества Lady’s Club",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "bankid": 1,
+      "name": "Клуб «Свои»",
+      "links": "https://belarusbank.by/ru/fizicheskim_licam/cards/zayavka-na-oformlenie-kartochki",
+      "image": "https://belarusbank.by/site_ru/37262/svoiaG_1.png",
+      "description": "Пользуйтесь всеми преимуществами Клуба и с виртуальной карточкой Visa Gold Клуба «Свои»",
+      "cost": "15 BYN",
+      "moneyBack": "0,3%",
+      "bonus": [
+        {
+          "id": 91,
+          "name": "Выдача наличных без комиссии",
+          "default": "в банкоматах Беларусбанка и Белагропромбанка – независимо от снимаемой суммы; в банкоматах других банков-резидентов – на сумму до 500 бел. руб. в календарный месяц."
+        },
+        {
+          "id": 92,
+          "name": "Оповещения о приходных операциях без взимания вознаграждения",
+          "default": ""
+        },
+        {
+          "id": 93,
+          "name": "Смена ПИН-кода без комиссии",
+          "default": ""
+        },
+        {
+          "id": 94,
+          "name": "Повышенная ставка по онлайн-депозиту",
+          "default": ""
+        },
+        {
+          "id": 95,
+          "name": "Специальные предложения от платежной системы Visa для карточки Visa Platinum",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "bankid": 1,
+      "name": "Клуб «Карт-бланш»",
+      "links": "https://belarusbank.by/ru/fizicheskim_licam/cards/zayavka-na-oformlenie-kartochki",
+      "image": "https://belarusbank.by/site_ru/32302/cardblansh_1.png",
+      "description": "Пользуйтесь всеми преимуществами Клуба и с виртуальной карточкой Клуба «Карт-бланш». Клуб «Карт-бланш» создан для путешествий.",
+      "cost": "35 BYN",
+      "moneyBack": "до 5%",
+      "bonus": [
+        {
+          "id": 21,
+          "name": "Организация путешествия с мани-бэком до 5%",
+          "default": "Бронируйте отели, покупайте билеты на самолет, поезд или автобус за пределами Республики Беларусь и возвращайте 2% от суммы покупки. При покупке билетов на БЖД возвращайте 5%."
+        },
+        {
+          "id": 22,
+          "name": "Выгодный шопинг",
+          "default": "Возвращайте  0,5% от суммы любой покупки на территории Беларуси и  1% от всех покупок за рубежом. В  магазинах-партнерах мани-бэк может достигать 12%"
+        },
+        {
+          "id": 23,
+          "name": "Экономьте на такси",
+          "default": "Скидка 7% на поездки и перевозку багажа в (из) «Национального аэропорта Минск» при обращении в «Cлужбу такси 157»."
+        },
+        {
+          "id": 24,
+          "name": "Скидка за снятие наличных",
+          "default": "Снимайте наличные в банкоматах за рубежом со сниженной комиссией на 1,5%."
+        },
+        {
+          "id": 25,
+          "name": "Скидки в рамках сервиса «Комплимент от банка»",
+          "default": ""
+        },
+        {
+          "id": 26,
+          "name": "Скидка на страховку",
+          "default": "Экономьте 15% на оформлении полиса страхования."
+        },
+        {
+          "id": 27,
+          "name": "Больший доход",
+          "default": "Откройте онлайн-депозит в белорусских рублях «Беларусбанк-онл@йн» (отзывный, безотзывный) со сроком хранения 12 месяцев с увеличенной процентной ставкой."
+        },
+        {
+          "id": 28,
+          "name": "Бесплатное SMS-оповещение",
+          "default": "Держите все под контролем! Получайте SMS-сообщения на Ваш телефон о приходных и расходных операциях по карточке."
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "bankid": 2,
+      "name": "AliExpress",
+      "links": "https://www.alfabank.by/cards/bonus/aliexpress/",
+      "image": "https://www.alfabank.by/upload/resize_cache/webp/iblock/e5d/shapka-ali.webp",
+      "description": "Возвращайте стоимость покупок на AliExpres. Накапливайте Money-back в виде Алибонусов (1 Алибонус = 1 BYN) и компенсируйте ими 100% стоимости товара на AliExpress (включая доставку).",
+      "cost": "4.9 BYN",
+      "moneyBack": "до 5%",
+      "bonus": [
+        {
+          "id": 31,
+          "name": "Рассчитывайтесь картой и возвращайте деньги Алибонусами:",
+          "default": "за покупки на AliExpress - 5% (пять, Карл!); за покупки в онлайне - 1%;  за покупки в оффлайне - 0,5%."
+        },
+        {
+          "id": 32,
+          "name": "Бесплатная доставка",
+          "default": "Наши курьеры бесплатно доставят карту в любую точку страны в удобное для вас время."
+        },
+        {
+          "id": 33,
+          "name": "Бесплатное обслуживание в Пакетах решений",
+          "default": "4,9 BYN Обслуживание карты Aliexpress в месяц."
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "bankid": 2,
+      "name": "Суперкупилка",
+      "links": "https://www.alfabank.by/cards/bonus/aliexpress/",
+      "image": "https://www.alfabank.by/upload/resize_cache/webp/iblock/ae3/kupilka-shapka-product-2010.webp",
+      "description": "Теперь не нужно носить много карт: карта «Суперкупилка» совмещает в себе обычную банковскую карту и карту «Купилка»",
+      "cost": "4.9 BYN",
+      "moneyBack": "до 4%",
+      "bonus": [
+        {
+          "id": 41,
+          "name": "15 бонусов в подарок",
+          "default": "Откройте счет к карте «Суперкупилка» и получайте по 5 приветственных бонусов* каждый месяц 3 месяца подряд!"
+        },
+        {
+          "id": 42,
+          "name": "Бесконтактная оплата покупок",
+          "default": "Просто поднесите карту к терминалу бесконтактной оплаты и ваша покупка будет оплачена в считанные секунды."
+        },
+        {
+          "id": 43,
+          "name": "Бесплатное обслуживание в Пакетах решений",
+          "default": "4,9 BYN Обслуживание карты Aliexpress в месяц."
+        },
+        {
+          "id": 44,
+          "name": "Бонусы за покупки",
+          "default": "Совершайте покупки по карте и получайте бонусы при покупке от 5 рублей на свою Купилку: 4% от суммы покупок в магазинах «Соседи»; 1% от суммы покупок в остальных магазинах"
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "bankid": 2,
+      "name": "Карта №1",
+      "links": "https://www.alfabank.by/cards/bonus/aliexpress/",
+      "image": "https://www.alfabank.by/upload/resize_cache/webp/iblock/46f/master_card_n1_prod.webp",
+      "description": "Карта №1 — карточка, которая зарабатывает",
+      "cost": "4.9 BYN",
+      "moneyBack": "до 2%",
+      "bonus": [
+        {
+          "id": 51,
+          "name": "Бесплатное пополнение карты",
+          "default": "Пополняйте вашу карту через сервис онлайн-переводов или через ЕРИП без комиссий со стороны Банка."
+        },
+        {
+          "id": 52,
+          "name": "Money-back до 2%",
+          "default": "Возвращайте деньги за покупки: 2% - по любимой категории, 1% - по остальным."
+        },
+        {
+          "id": 53,
+          "name": "Быстрые бесконтактные платежи",
+          "default": "Оплачивайте свои покупки одним движением — благодаря бесконтактной технологии."
+        },
+        {
+          "id": 54,
+          "name": "Бесплатное обслуживание в Пакетах решений",
+          "default": "4,9 BYN Обслуживание Карты №1 в месяц."
+        },
+        {
+          "id": 55,
+          "name": "SMS-оповещения Альфа-Чек",
+          "default": "Подключите к карточке услугу Альфа-Чек и будьте в курсе всех операций по карточке: зачисление денег на счет, суммы переводов, списания."
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "bankid": 4,
+      "name": "СберКарта",
+      "links": "https://www.sber-bank.by/card/sbercard",
+      "image": "https://www.sber-bank.by/images/BPSsite/up/35531/PIC_BELCARD_PREMIUM.png",
+      "description": "СберКарта работает для вас",
+      "cost": "0 BYN",
+      "moneyBack": "до 7%",
+      "bonus": [
+        {
+          "id": 31,
+          "name": "до 7% money-back за ТОП-5 покупок",
+          "default": ""
+        },
+        {
+          "id": 32,
+          "name": "3% годовых на остаток",
+          "default": ""
+        },
+        {
+          "id": 33,
+          "name": "Выбирайте персональный money-back",
+          "default": "4,9 BYN Обслуживание карты Aliexpress в месяц."
+        },
+        {
+          "id": 34,
+          "name": "Снимайте наличные 1000 BYN в АТМ любого банка ",
+          "default": ""
+        },
+        {
+          "id": 35,
+          "name": "Пользуйтесь картой бесплатно",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "bankid": 4,
+      "name": "Баланс+ с базовым счетом",
+      "links": "https://www.sber-bank.by/card/balance",
+      "image": "https://www.sber-bank.by/images/BPSsite/up/35350/01.png",
+      "description": "Получайте пенсию с выгодой ",
+      "cost": "0 BYN",
+      "moneyBack": "до 5%",
+      "bonus": [
+        {
+          "id": 41,
+          "name": "Без платы за оформление и обслуживание",
+          "default": ""
+        },
+        {
+          "id": 42,
+          "name": "3% годовых на остаток ",
+          "default": ""
+        },
+        {
+          "id": 43,
+          "name": "5% money-back в аптеках",
+          "default": "Например, тратите 50 BYN в месяц в аптеке — получаете 2,5 BYN money-back."
+        },
+        {
+          "id": 44,
+          "name": "Выгодные покупки",
+          "default": "Money-back 5% в аптеках, 3% в категории Здоровье. Повышенный money-back у партнеров."
+        },
+        {
+          "id": 45,
+          "name": "Страховка от несчастных случаев и болезней",
+          "default": "500 рублей страховая сумма"
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "bankid": 4,
+      "name": "Карта с большими бонусами",
+      "links": "https://www.sber-bank.by/card/karta-s-bolshimi-bonusami",
+      "image": "https://www.sber-bank.by/images/BPSsite/up/17247/bonus-card-banner-img.png",
+      "description": "Платежная карта с постоянным money-back 1% за все покупки (кроме супермаркетов), а также повышенный процент у партнёров. Подключайте любимые категории и получайте ещё больше!",
+      "cost": "0 BYN",
+      "moneyBack": "до 10%",
+      "bonus": [
+        {
+          "id": 61,
+          "name": "Выбери свою категорию",
+          "default": "Подключите одну или все сразу категории для повышенного money-back"
+        },
+        {
+          "id": 62,
+          "name": "Партнёрский money-back",
+          "default": "Совершайте покупки у наших партнёров, получая money-back до 10%."
+        },
+        {
+          "id": 63,
+          "name": "Подключаемый повышенный money-back",
+          "default": "Подключите неограниченное количество категорий и получайте до 2% money-back (кроме супермаркетов). Ежемесячная стоимость каждой категории: «Супермаркеты» — 2 рубля, все остальные — 1 рубль в месяц. Категория «Супермаркеты» подключается всем бесплатно на первые 2 месяца."
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "bankid": 4,
+      "name": "Кобрендинговая карта с ФК БАТЭ",
+      "links": "https://www.sber-bank.by/page/bate",
+      "image": "https://recard.by/images/card/cc7580b2d487fa0d3069f3c87db19a97.png",
+      "description": "Карта настоящего болельщика ФК БАТЭ",
+      "cost": "9,90 BYN",
+      "moneyBack": "до 0,9%",
+      "bonus": [
+        {
+          "id": 61,
+          "name": "ВЫ БУДЕТЕ ЗАСТРАХОВАНЫ",
+          "default": "Mastercard World ComPass Premium® – это страховка. В карту встроена возможность быстрого оформления страховки для поездок за границу"
+        },
+        {
+          "id": 62,
+          "name": "ПОМОЩЬ НА ДОРОГЕ",
+          "default": "Ваш Mastercard World ComPass Premium® поможет вам в пути. Целый год программы «VIP assist» включен в вашу карту"
+        },
+        {
+          "id": 63,
+          "name": "Money-back 5%",
+          "default": "за покупки в спортивных категориях, в официальном интернет-магазине и фан-шопе атрибутики ФК БАТЭ"
+        },
+        {
+          "id": 64,
+          "name": "Поддержка юных игроков ФК БАТЭ",
+          "default": "перечислим процент от суммы операций на поддержку детско-юношеской школы ФК БАТЭ"
+        },
+        {
+          "id": 65,
+          "name": "Скидки от Белгосстрах",
+          "default": "скидка до 15% на различные виды добровольного страхования от партнера Белгосстрах"
+        },
+        {
+          "id": 66,
+          "name": "Дополнительная Карта",
+          "default": "возможность оформления одной дополнительной банковской платежной карты Visa Gold к счету клиента со скидкой 50%"
+        },
+        {
+          "id": 67,
+          "name": "Проход на стадион",
+          "default": "проход на стадион «Борисов-Арена» по записанному на Карту абонементу в новом сезоне"
+        },
+        {
+          "id": 68,
+          "name": "Бесплатные переводы с карт других банков",
+          "default": "Переводите через ЕРИП с карт других банков без комиссии."
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "bankid": 4,
+      "name": "Mastercard ComPass Premium",
+      "links": "https://www.sber-bank.by/card/compass",
+      "image": "https://www.sber-bank.by/images/BPSsite/cards_view/mc_premium_compass_chip_paypass.png",
+      "description": "Получайте от своих денег максимум, как и привыкли. Карта Mastercard World ComPass Premium® расширяет ваши возможности и преимущества",
+      "cost": "0 BYN",
+      "moneyBack": "до 5%",
+      "bonus": [
+        {
+          "id": 61,
+          "name": "Приоритет",
+          "default": "при приобретении билетов на поединки раунда плей-офф и групповых стадий еврокубков с участием ФК БАТЭ"
+        },
+        {
+          "id": 62,
+          "name": "Скидки",
+          "default": "скидка в 50% от цены билетов на домашние матчи ФК БАТЭ в рамках матчей Чемпионата и Кубка Республики Беларусь по футболу, квалификационных раундов Лиги Чемпионов и Лиги Европы УЕФА"
+        },
+        {
+          "id": 63,
+          "name": "Money-back 5%",
+          "default": "за покупки в спортивных категориях, в официальном интернет-магазине и фан-шопе атрибутики ФК БАТЭ"
+        },
+        {
+          "id": 64,
+          "name": "Поддержка юных игроков ФК БАТЭ",
+          "default": "перечислим процент от суммы операций на поддержку детско-юношеской школы ФК БАТЭ"
+        },
+        {
+          "id": 65,
+          "name": "Скидки от Белгосстрах",
+          "default": "скидка до 15% на различные виды добровольного страхования от партнера Белгосстрах"
+        },
+        {
+          "id": 66,
+          "name": "Дополнительная Карта",
+          "default": "возможность оформления одной дополнительной банковской платежной карты Visa Gold к счету клиента со скидкой 50%"
+        },
+        {
+          "id": 67,
+          "name": "Проход на стадион",
+          "default": "проход на стадион «Борисов-Арена» по записанному на Карту абонементу в новом сезоне"
+        },
+        {
+          "id": 68,
+          "name": "Бесплатные переводы с карт других банков",
+          "default": "Переводите через ЕРИП с карт других банков без комиссии."
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "bankid": 5,
+      "name": "Драйв",
+      "links": "https://www.belapb.by/rus/natural/cards/kartochka-drajv/",
+      "image": "https://belapb.by/cms/images/BelAgra_Drive_KV_1920x1080_2_1.jpg",
+      "description": "«Драйв» – это платежная карта Visa для всех автомобилистов.",
+      "cost": "0 BYN",
+      "moneyBack": "до 2%",
+      "bonus": [
+        {
+          "id": 61,
+          "name": "Карточка выпускается в 2-х форматах:",
+          "default": "полноразмерная карточка Visa Classic. Срок действия карточки - 6 лет; - в формате MINI на базе карточки Visa Classic с брелоком-картхолдером (эмиссия временно приостановлена) в комплекте, что позволит прикрепить ее к ключам от автомобиля и обеспечит удобство в использовании при проведении расчетов в организациях торговой сети. Срок действия карточки - 6 лет."
+        },
+        {
+          "id": 62,
+          "name": "Манибэк за покупки",
+          "default": "Money-back в размере 2% по операциям на автозаправочных станциях и станциях технического обслуживания и money-back в размере 1% во всех остальных организациях торговли и сервиса (ОТС), за исключением  операций в ОТС с MCC 5411 (Бакалейные магазины, супермаркеты). Ознакомиться более подробно с условиями начисления Money-back можно здесь."
+        },
+        {
+          "id": 63,
+          "name": "Скидки на страхование ",
+          "default": "В рамках совместной программы лояльности с БРУСП «Белгосстрах» держателям карточки «Драйв» будут предоставляться скидки по программам страхования: - при оформлении страхового полиса в подразделениях БРУСП «Белгосстрах» - 5% на страхование КАСКО (вариант «Автокаско «Классический») и на добровольное страхование гражданской ответственности владельцев транспортных средств; - при оформлении в подразделениях банка - 15% на страхование «Экспресс» от травм"
+        },
+        {
+          "id": 64,
+          "name": "Скидки / бонусы от предприятий-партнеров",
+          "default": "Используйте карточку «Драйв» для оплаты товаров и услуг предприятий-партнеров и получайте скидки!"
+        },
+        {
+          "id": 65,
+          "name": " Программа лояльности «Энергия твоего пути»",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "bankid": 5,
+      "name": "«Mastercard World «О-GO!»",
+      "links": "https://www.belapb.by/rus/natural/cards/mastercard-world-o-go/",
+      "image": "https://www.belapb.by/cms/images/card-o-go-belapb.png",
+      "description": "Карточка, предназначенная для современных людей, чей образ жизни протекает в активном ритме. Это уникальный платежный инструмент, который позволяет своим держателям получить массу финансовых преимуществ, упростить и сделать приятными ежедневные покупки, а также получить от Белагропромбанка ценные бонусы за физическую активность. Срок действия карточки - 6 лет.",
+      "cost": "0 BYN",
+      "moneyBack": "до 2%",
+      "bonus": [
+        {
+          "id": 61,
+          "name": "Money-back",
+          "default": "в размере 2% в предприятиях, специализирующихся на оказании спортивных услуг и продаже спортивных товаров, а также в медицинских центрах; в размере 0,5% в остальных предприятиях торговли (сервиса) и сети Интернет."
+        },
+        {
+          "id": 62,
+          "name": "Выпуск Карты-брелока Mastercard Standard",
+          "default": "Только для держателей карточки «О-GO!» в качестве второй основной и последующей может быть выпущена уникальная Карта-брелок Mastercard Standard."
         }
       ]
     }
