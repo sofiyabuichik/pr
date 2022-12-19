@@ -10,7 +10,7 @@ export const banksApi = createApi({
 
 		}),
 		getBanksByApi: build.query({
-			query: (name = '') => `banks?name=${name.toLowerCase()}`
+			query: (name = '') => `banks?name_like=^${name}`
 		}),
 
 	})

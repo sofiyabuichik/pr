@@ -18,7 +18,7 @@ function Slider({array, width = 800, path = null}) {
         </button>
       }
       <div className="slider-container_wrapper" style={{width: `${width}px`}}>
-        <div className="slides-container" style={{transform: `translate(${score * -269}px)`}}>
+        <div className="slides-container" style={{transform: `translate(${score * -262}px)`}}>
           {array.map((item) => <Slide key={item.id || Date.now()} path={path} item={item} width={width / 3 - 30}/>)}
         </div>
       </div>

@@ -13,7 +13,7 @@ export const installmentCardsApi = createApi({
 			query: (bankid) => `installment-cards?${bankid && `bankid=${bankid}`}`,
 		}),
 		getInstallmentCardByName: build.query({
-			query: (name = '') => `installment-cards?name=${name}`
+			query: (name = '') => `installment-cards?name_like=${name}`
 
 		}),
 		// addProduct: build.mutation({
