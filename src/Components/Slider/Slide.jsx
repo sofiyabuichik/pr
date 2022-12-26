@@ -13,12 +13,13 @@ export default function Slide({item, width, path}) {
   return (
     <Link to={path ? `/${path}#${item.id}` : "#"}>
       <div
+        ref={ref}
         id={item.id}
         className='slide'
         key={item}
-        style={{width: `${width}px`}}
+        style={{width: `${width}px`, opacity: inView ? "1" : "0"}}
       >
-        <div className="img-container" ref={ref}>
+        <div className="img-container" >
           {
             inView ? <img src={item.image} alt={item.name}/> : <Skeleton variant="rectangular" width={200} height={150} />
           }

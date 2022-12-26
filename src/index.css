@@ -249,7 +249,7 @@ section h1, .bank__card-content h2{
 }
 
 .slide {
-
+  transition: 1s;
   color: rgb(190, 44, 111);
   display: inline-block;
   align-items: center;

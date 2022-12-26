@@ -13,7 +13,7 @@ export const cashbackCardsApi = createApi({
 			query: (bankid) => `cashback-cards?${bankid && `bankid=${bankid}`}`,
 		}),
 		getCashbackCardById: build.query({
-			query: (id) => `cashback-cards/${id}`,
+			query: (id = 0) => `cashback-cards/${id}`,
 		}),
 		getCashbackCardByName: build.query({
 			query: (name = '') => `cashback-cards?name_like=${name}`

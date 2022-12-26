@@ -1,6 +1,7 @@
 import React from 'react'
 import {useGetCashbackCardsQuery} from "../redux/cashbackCardApi";
 import Slide from "../Components/Slider/Slide";
+import CardForm from "../Components/CardForm/CardForm";
 
 function PageCashback() {
   const {data = [], isLoading = false} = useGetCashbackCardsQuery()
@@ -18,7 +19,7 @@ function PageCashback() {
           <>
             {
 
-              data && data.map((card) => <Slide item={card}/>)
+              data && data.map((card) => <CardForm card={card}/>)
               // data && data.map((card) => <Slide item={card}/>)
 
             }
