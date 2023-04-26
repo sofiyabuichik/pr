@@ -1,30 +1,34 @@
 import React from 'react'
-
-import {
-  useNavigate,
-} from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
+import { useInView } from 'react-intersection-observer';
+import {Skeleton} from "@mui/material";
 
 export default function Slide({item, width, path}) {
-  let navigate = useNavigate();
-  const clickhandler = () => {
-    if (item.id) {
-      return navigate(`/${path}#${item.id}`);
-    }
 
-  }
+  const { ref, inView } = useInView({
+    /* Optional options */
+    threshold: 0,
+  });
 
   return (
-    <div 
-      className='slide' 
-      key={item} 
-      style={{width: `${width}px`}} 
-      onClick={clickhandler}
-    > 
-      <div className="img-container">
-        <img src={item.image} alt={item.name}/>
+    <Link to={path ? `/${path}#${item.id}` : "#"}>
+      <div
+        ref={ref}
+        id={item.id}
+        className='slide'
+        key={item}
+        style={{width: `${width}px`, opacity: inView ? "1" : "0"}}
+      >
+        <div className="img-container" >
+          {
+            inView ? <img src={item.image} alt={item.name}/> : <Skeleton variant="rectangular" width={200} height={150} />
+          }
+        </div>
+        <div className="slide-text">
+          <h2>{item.name}</h2>
+          <p>{item.description}</p>
+        </div>
       </div>
-      <h2>{item.name}</h2>
-      <p>{item.description}</p>  
-    </div>
+    </Link>
   )
 }
